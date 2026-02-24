@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Bworker",
+        "precio": 12000,
+        "xp": 13000000,
+        "minutos": 7,
+        "color": "#22c55e"
+    },
+    {
+        "nombre": "Minotot",
+        "precio": 45000,
+        "xp": 25000000,
+        "minutos": 15,
+        "color": "#eab308"
+    },
+    {
+        "nombre": "Roble",
+        "precio": 50000,
+        "xp": 10000000,
+        "minutos": 8,
+        "color": "#92400e"
+    },
+    {
+        "nombre": "Sfinter",
+        "precio": 0,
+        "xp": 0,
+        "minutos": 10,
+        "color": "#94a3b8"
+    },
+    {
+        "nombre": "Kimbo",
+        "precio": 26000,
+        "xp": 14000000,
+        "minutos": 9,
+        "color": "#b45309"
+    },
+    {
+        "nombre": "Jalató Real",
+        "precio": 10000,
+        "xp": 500000,
+        "minutos": 2,
+        "color": "#ffffff"
+    }
+]
