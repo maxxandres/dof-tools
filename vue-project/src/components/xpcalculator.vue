@@ -244,7 +244,7 @@ export default {
     return {
       nivelActual: 1,
       xpActualPorcentaje: 0,
-      nivelObjetivo: 0,
+      nivelObjetivo: 65,
       xpPorPeleaRaw: 0,
       precioPeleaRaw: 0,
       tiempoPelea: 0,
