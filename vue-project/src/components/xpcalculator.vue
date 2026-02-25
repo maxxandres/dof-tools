@@ -37,15 +37,15 @@
       <div class="inputs-horizontal">
         <div class="input-field">
           <label>Nivel actual</label>
-          <input type="number" v-model.number="nivelActual" @blur="limitCurrentLevel" min="1" max="200" :class="{ 'error': currentLevelError }">
+          <input type="number" v-model.number="nivelActual" @blur="limitCurrentLevel" min="1" max="200" :class="{ 'error': currentLevelError }" @keydown="preventNonInteger">
         </div>
         <div class="input-field">
           <label>XP actual <span class="highlight-text">%</span></label>
-          <input type="number" v-model.number="xpActualPorcentaje" @blur="limitXp" min="0" max="100" step="0.01">
+          <input type="number" v-model.number="xpActualPorcentaje" @blur="limitXp" min="0" max="100" @keydown="preventNonInteger">
         </div>
         <div class="input-field">
           <label>Nivel objetivo</label>
-          <input type="number" v-model.number="nivelObjetivo" @blur="limitTargetLevel" min="2" max="200" :class="{ 'error': targetLevelError }">
+          <input type="number" v-model.number="nivelObjetivo" @blur="limitTargetLevel" min="2" max="200" :class="{ 'error': targetLevelError }" @keydown="preventNonInteger">
         </div>
         <!-- XP por pelea -->
         <div class="input-field">
@@ -60,6 +60,7 @@
             :value="xpPorPeleaStr"
             @input="formatXpPorPelea"
             :style="selectedPL && selectedPL.color ? { color: selectedPL.color, borderColor: selectedPL.color + '80' } : {}"
+            @keydown="preventNonDigit"
           >
         </div>
         <!-- Precio pelea -->
@@ -75,6 +76,7 @@
             :value="precioPeleaStr"
             @input="formatPrecioPelea"
             :style="selectedPL && selectedPL.color ? { color: selectedPL.color, borderColor: selectedPL.color + '80' } : {}"
+            @keydown="preventNonDigit"
           >
         </div>
         <div class="input-field">
@@ -89,6 +91,7 @@
             v-model.number="tiempoPelea"
             min="1"
             :style="selectedPL && selectedPL.color ? { color: selectedPL.color, borderColor: selectedPL.color + '80' } : {}"
+            @keydown="preventNonInteger"
           >
         </div>
 
@@ -131,7 +134,7 @@
       <!-- Barra de Progreso (columna derecha) -->
       <div class="progress-section glass-panel progress-glow">
         <div class="progress-header">
-          <h2 class="panel-subtitle">Progreso hacia Nivel {{ nivelObjetivo }}</h2>
+          <h2 class="panel-subtitle">Progreso hacia Nivel {{ nivelObjetivo }} </h2>
           <span class="progress-value">{{ Math.min(100, Math.max(0, porcentajeProgreso)).toFixed(4) }}%</span>
         </div>
         <div class="progress-bar-container">
@@ -165,15 +168,15 @@
                 </div>
                 <div class="modal-field">
                   <label>Precio (Kamas)</label>
-                  <input type="text" :value="formatNumber(editModal.data.precio)" @input="e => editModal.data.precio = parseNumber(e.target.value)" placeholder="12.000">
+                  <input type="text" :value="formatNumber(editModal.data.precio)" @input="e => editModal.data.precio = parseNumber(e.target.value)" placeholder="12.000" @keydown="preventNonDigit">
                 </div>
                 <div class="modal-field">
                   <label>XP Estimada</label>
-                  <input type="text" :value="formatNumber(editModal.data.xp)" @input="e => editModal.data.xp = parseNumber(e.target.value)" placeholder="13.000.000">
+                  <input type="text" :value="formatNumber(editModal.data.xp)" @input="e => editModal.data.xp = parseNumber(e.target.value)" placeholder="13.000.000" @keydown="preventNonDigit">
                 </div>
                 <div class="modal-field">
                   <label>Min. por pelea</label>
-                  <input type="number" v-model.number="editModal.data.minutos" min="0" placeholder="7">
+                  <input type="number" v-model.number="editModal.data.minutos" min="0" placeholder="7" @keydown="preventNonInteger">
                 </div>
               </div>
               <div class="modal-edit-actions">
@@ -366,6 +369,22 @@ export default {
     this.loadFromStorage();
   },
   methods: {
+    preventNonInteger(e) {
+      if (['.', ',', 'e', 'E', '+', '-'].includes(e.key)) {
+        e.preventDefault();
+      }
+    },
+    preventNonDigit(e) {
+      if (
+        ['Backspace', 'Delete', 'Tab', 'Escape', 'Enter', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Home', 'End'].includes(e.key) ||
+        e.ctrlKey || e.metaKey || e.altKey
+      ) {
+        return;
+      }
+      if (!/^\d$/.test(e.key)) {
+        e.preventDefault();
+      }
+    },
     saveToStorage() {
       const stateToSave = {
         nivelActual: this.nivelActual,
@@ -451,6 +470,7 @@ export default {
     limitXp() {
       if (this.xpActualPorcentaje < 0) this.xpActualPorcentaje = 0;
       if (this.xpActualPorcentaje > 100) this.xpActualPorcentaje = 100;
+      this.xpActualPorcentaje = Math.round(this.xpActualPorcentaje);
     },
     formatNumber(num) {
       if (!num && num !== 0) return '';

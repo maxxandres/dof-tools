@@ -22,22 +22,22 @@
     },
     {
         "nombre": "Sfinter",
-        "precio": 0,
-        "xp": 0,
-        "minutos": 10,
+        "precio": 43000,
+        "xp": 15000000,
+        "minutos": 8,
         "color": "#94a3b8"
     },
     {
         "nombre": "Kimbo",
-        "precio": 26000,
-        "xp": 14000000,
+        "precio": 27000,
+        "xp": 18000000,
         "minutos": 9,
         "color": "#b45309"
     },
     {
         "nombre": "Jalató Real",
-        "precio": 10000,
-        "xp": 500000,
+        "precio": 5400,
+        "xp": 400000,
         "minutos": 2,
         "color": "#ffffff"
     }
