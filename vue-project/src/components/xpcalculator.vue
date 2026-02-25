@@ -414,13 +414,30 @@ export default {
           this.tiempoPelea = parsed.tiempoPelea ?? 7;
 
           if (parsed.datosExtras && parsed.datosExtras.length > 0) {
-            // Merge color from JSON for non-custom items that are missing it
+            // Remove missing items and merge values from JSON for non-custom items
+            // but keep the user's custom items as they are
+            const baseMap = new Map(datosExtrasData.map(d => [d.nombre, d]));
+            
             this.datosExtras = parsed.datosExtras.map(item => {
-              if (!item.color && colorMap[item.nombre]) {
-                return { ...item, color: colorMap[item.nombre] };
+              if (item.custom) return item; // Keep custom items intact
+              
+              const baseData = baseMap.get(item.nombre);
+              if (baseData) {
+                // It's a default item that still exists in the JSON, update with JSON values
+                return { ...baseData };
               }
-              return item;
+              // It's a default item that no longer exists in JSON (was deleted)
+              return null; 
+            }).filter(Boolean); // Remove nulls
+            
+            // Add any new base items that weren't in localStorage
+            const existingNames = new Set(this.datosExtras.map(i => i.nombre));
+            datosExtrasData.forEach(d => {
+              if (!existingNames.has(d.nombre)) {
+                this.datosExtras.push({ ...d });
+              }
             });
+            
           } else {
             this.datosExtras = JSON.parse(JSON.stringify(datosExtrasData));
           }
