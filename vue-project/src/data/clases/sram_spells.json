@@ -1,0 +1,1804 @@
+[
+    {
+        "id": "65",
+        "nombre": "Trampa Solapada",
+        "icono": "icons/65.svg",
+        "descripcion": "Trampa Solapada causa daños de tierra al que la active.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 2 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "2",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 0 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "72",
+        "nombre": "Invisibilidad",
+        "icono": "icons/72.svg",
+        "descripcion": "Vuelve al personaje invisible.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+1 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+1 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+1 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+1 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+1 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)",
+                    "+2 PM (3 turnos)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "61",
+        "nombre": "Engaño",
+        "icono": "icons/61.svg",
+        "descripcion": "Engaño es uno de los raros ataques a distancia de esta clase, causa daños de tierra.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 4 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 6 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 5 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 7 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 13 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "66",
+        "nombre": "Veneno Insidioso",
+        "icono": "icons/66.svg",
+        "descripcion": "Envenena a la víctima causándole daños de tipo aire durante varios turnos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 1 a 2 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 3 a 4 (aire) (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 3 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 5 (aire) (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 4 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 6 (aire) (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 5 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 7 (aire) (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 6 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 8 (aire) (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 9 (aire) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 11 (aire) (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "68",
+        "nombre": "Karadura",
+        "icono": "icons/68.svg",
+        "descripcion": "Karadura roba fuerza y agilidad al enemigo y le ocasiona daños de aire.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 15 (aire) 1 (X)",
+                    "5 robo de agilidad (3 turnos) 1 (X)",
+                    "5 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 17 (aire) 1 (X)",
+                    "10 robo de agilidad (3 turnos) 1 (X)",
+                    "10 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 16 (aire) 1 (X)",
+                    "8 robo de agilidad (3 turnos) 1 (X)",
+                    "8 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 18 (aire) 1 (X)",
+                    "13 robo de agilidad (3 turnos) 1 (X)",
+                    "13 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 17 (aire) 1 (X)",
+                    "10 robo de agilidad (3 turnos) 1 (X)",
+                    "10 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 19 (aire) 1 (X)",
+                    "15 robo de agilidad (3 turnos) 1 (X)",
+                    "15 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 18 (aire) 1 (X)",
+                    "13 robo de agilidad (3 turnos) 1 (X)",
+                    "13 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 20 (aire) 1 (X)",
+                    "18 robo de agilidad (3 turnos) 1 (X)",
+                    "18 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "6",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 19 (aire) 1 (X)",
+                    "15 robo de agilidad (3 turnos) 1 (X)",
+                    "15 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 21 (aire) 1 (X)",
+                    "20 robo de agilidad (3 turnos) 1 (X)",
+                    "20 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "106",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 25 (aire) 1 (X)",
+                    "25 robo de agilidad (3 turnos) 1 (X)",
+                    "25 robo de fuerza (3 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 a 30 (aire) 1 (X)",
+                    "30 robo de agilidad (3 turnos) 1 (X)",
+                    "30 robo de fuerza (3 turnos) 1 (X)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "63",
+        "nombre": "Golpe Solapado",
+        "icono": "icons/63.svg",
+        "descripcion": "Causa daños de tierra al adversario y hace que se aleje de varias casillas.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 6 (tierra)",
+                    "Hace retroceder de 2 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 9 (tierra)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 7 (tierra)",
+                    "Hace retroceder de 2 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 10 (tierra)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "9",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 8 (tierra)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 11 (tierra)",
+                    "Hace retroceder de 4 casilla(s)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "9",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 10 (tierra)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 13 (tierra)",
+                    "Hace retroceder de 4 casilla(s)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "9",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 12 (tierra)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (tierra)",
+                    "Hace retroceder de 4 casilla(s)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "109",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 16 (tierra)",
+                    "Hace retroceder de 4 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 a 21 (tierra)",
+                    "Hace retroceder de 5 casilla(s)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "74",
+        "nombre": "Doble",
+        "icono": "icons/74.svg",
+        "descripcion": "Con este hechizo puedes invocar a un doble de tu personaje. El doble posee las mismas características que el original pero no puede atacar.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "13",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "13",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "13",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "13",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "113",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Crea un doble del lanzador del hechizo"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "64",
+        "nombre": "Infravisión",
+        "icono": "icons/64.svg",
+        "descripcion": "Infravisión permite detectar las trampas y los personajes invisibles y además aumenta el alcance.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 8 (C)",
+                    "+1 al alcance (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 8 (C)",
+                    "+2 al alcance (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "79",
+        "nombre": "Trampa de Masas",
+        "icono": "icons/79.svg",
+        "descripcion": "Trampa de Masas causa serios daños de tierra al que la active y a los jugadores que se encuentren a su alrededor.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "21",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "21",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 2 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "21",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "21",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "21",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "121",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 2 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "78",
+        "nombre": "Invisibilidad del Prójimo",
+        "icono": "icons/78.svg",
+        "descripcion": "Invisibilidad del Prójimo permite volver a un jugador invisible.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Vuelve invisible al personaje (3 turnos)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "71",
+        "nombre": "Trampa Envenenada",
+        "icono": "icons/71.svg",
+        "descripcion": "Trampa Envenenada intoxica al jugador que la active.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 2 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 1 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "62",
+        "nombre": "Concentración de Chakra",
+        "icono": "icons/62.svg",
+        "descripcion": "Concentración de Chakra aumenta de forma considerable la fuerza de su lanzador.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+20 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+25 a la fuerza (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+30 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+40 a la fuerza (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+40 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+55 a la fuerza (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+50 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+70 a la fuerza (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+60 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+85 a la fuerza (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+80 a la fuerza (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+110 a la fuerza (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "69",
+        "nombre": "Trampa de Inmovilización",
+        "icono": "icons/69.svg",
+        "descripcion": "Trampa de Inmovilización paraliza a todos los jugadores que se encuentren es su zona de efecto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 3 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 3 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "77",
+        "nombre": "Trampa de Silencio",
+        "icono": "icons/77.svg",
+        "descripcion": "Trampa de Silencio hacer perder PA al jugador que la active.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 2 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 2 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "73",
+        "nombre": "Trampa Repulsiva",
+        "icono": "icons/73.svg",
+        "descripcion": "Trampa Repulsiva empuja a aliados y enemigos lejos de ella.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 1 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "67",
+        "nombre": "Miedo",
+        "icono": "icons/67.svg",
+        "descripcion": "Este hechizo empuja a los aliados o a los enemigos a la casilla objetivo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "2 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "2 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "2 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "2",
+                "alcance": "2 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder hasta la casilla objetivo"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "70",
+        "nombre": "Estafa",
+        "icono": "icons/70.svg",
+        "descripcion": "Estafa permite robar kamas a un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "6",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 100 kamas",
+                    "Daños: 9 a 23 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 (aire)",
+                    "Roba 1 a 200 kamas"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "6",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 120 kamas",
+                    "Daños: 11 a 25 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 28 (aire)",
+                    "Roba 1 a 240 kamas"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 150 kamas",
+                    "Daños: 13 a 27 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 30 (aire)",
+                    "Roba 1 a 300 kamas"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/35",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 180 kamas",
+                    "Daños: 15 a 29 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 32 (aire)",
+                    "Roba 1 a 360 kamas"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 250 kamas",
+                    "Daños: 18 a 32 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35 (aire)",
+                    "Roba 1 a 500 kamas"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 1 a 250 kamas",
+                    "Daños: 18 a 32 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35 (aire)",
+                    "Roba 1 a 500 kamas"
+                ]
+            }
+        }
+    },
+    {
+        "id": "75",
+        "nombre": "Pulsión de Chakra",
+        "icono": "icons/75.svg",
+        "descripcion": "Pulsión de Chakra aumenta los golpes críticos del lanzador.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+5 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+5 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+6 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+6 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+7 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+7 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+8 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+8 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+9 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+9 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+10 a los golpes críticos (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+10 a los golpes críticos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "76",
+        "nombre": "Ataque Mortal",
+        "icono": "icons/76.svg",
+        "descripcion": "Ataque Mortal causa importantes daños de tierra al enemigo y hasta puede matarlo con un golpe crítico.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 40 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 41 a 60 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/90",
+                "efectos": [
+                    "Daños: 26 a 45 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 46 a 65 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 31 a 50 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 66 a 85 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 36 a 55 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 101 a 120 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 41 a 60 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 131 a 150 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/90",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 41 a 60 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 131 a 150 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "80",
+        "nombre": "Trampa Mortal",
+        "icono": "icons/80.svg",
+        "descripcion": "Trampa Mortal es capaz de matar a un adversario si este la pisa.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 1 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 2 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 3 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 4 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 5 0 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Pone una trampa de nivel 6 0 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "1904",
+        "nombre": "Invocación de Dopeul Sram",
+        "icono": "icons/1904.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul sram que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "416",
+        "nombre": "Mala sombra",
+        "icono": "icons/416.svg",
+        "descripcion": "Se minimizan los lanzamientos de dados que realiza el objetivo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Minimiza los efectos aleatorios (2 turnos)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    }
+]

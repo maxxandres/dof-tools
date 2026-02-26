@@ -1,0 +1,1930 @@
+[
+    {
+        "id": "431",
+        "nombre": "Castigo Forzado",
+        "icono": "icons/431.svg",
+        "descripcion": "Este hechizo permite que su lanzador aumente su fuerza cada vez que pierde PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 140 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 150 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 200 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 220 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "432",
+        "nombre": "Pie del Sacrógrito",
+        "icono": "icons/432.svg",
+        "descripcion": "Este hechizo de ataque cuerpo a cuerpo causa daños de tipo tierra.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 9 (tierra)",
+                    "5 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 (tierra)",
+                    "5 robo de agilidad (4 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 11 (tierra)",
+                    "5 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 (tierra)",
+                    "5 robo de agilidad (4 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 14 (tierra)",
+                    "10 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 (tierra)",
+                    "10 robo de agilidad (4 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 17 (tierra)",
+                    "15 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 (tierra)",
+                    "15 robo de agilidad (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 18 (tierra)",
+                    "15 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 (tierra)",
+                    "15 robo de agilidad (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/35",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 22 (tierra)",
+                    "20 robo de agilidad (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 (tierra)",
+                    "20 robo de agilidad (4 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "434",
+        "nombre": "Atracción",
+        "icono": "icons/434.svg",
+        "descripcion": "Atrae al objetivo hacia el sacrógrito.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "2 a 9",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 2 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "2 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 3 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "2 a 11",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 4 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "2 a 12",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 5 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "2 a 13",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 6 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "2 a 14",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace avanzar 7 casilla(s)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "444",
+        "nombre": "Elusión",
+        "icono": "icons/444.svg",
+        "descripcion": "Este hechizo le permite que su lanzador esquive los ataques cuerpo a cuerpo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Esquiva un 100% de los golpes retrocediendo de 1 casilla(s) (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "449",
+        "nombre": "Cambio",
+        "icono": "icons/449.svg",
+        "descripcion": "Este hechizo permite que su lanzador cambie de posición con un aliado o un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "106",
+                "coste_pa": "1",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "436",
+        "nombre": "Asalto",
+        "icono": "icons/436.svg",
+        "descripcion": "Asalto permite golpear a un enemigo a distancia causándole daños de tipo aire.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 9 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 12 (aire)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 10 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 13 (aire)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 11 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 14 (aire)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "9",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 12 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (aire)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "9",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 15 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 a 20 (aire)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "109",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/35",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 19 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 19 a 25 (aire)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "437",
+        "nombre": "Castigo Ágil",
+        "icono": "icons/437.svg",
+        "descripcion": "Este hechizo permite que su lanzador aumente su agilidad cada vez que pierde PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 140 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 150 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "113",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 200 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 220 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "439",
+        "nombre": "Disolución",
+        "icono": "icons/439.svg",
+        "descripcion": "Este hechizo roba vida de tipo agua a los enemigos que rodeen al sacrogrito.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 8 a 12 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 10 a 14 PDV (agua) 1 (X)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 10 a 14 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 12 a 16 PDV (agua) 1 (X)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 12 a 16 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 14 a 18 PDV (agua) 1 (X)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 14 a 18 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 16 a 20 PDV (agua) 1 (X)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 16 a 20 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 18 a 22 PDV (agua) 1 (X)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 22 a 26 PDV (agua) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Roba 27 a 31 PDV (agua) 1 (X)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "433",
+        "nombre": "Castigo Osado",
+        "icono": "icons/433.svg",
+        "descripcion": "Este hechizo permite que su lanzador aumente su suerte cada vez que pierde PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 140 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 150 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "121",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 200 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 220 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "443",
+        "nombre": "Castigo Espiritual",
+        "icono": "icons/443.svg",
+        "descripcion": "Este hechizo permite que su lanzador aumente su inteligencia cada vez que pierde PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 140 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 150 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 200 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 220 durante 5 turno(s). (5 turnos)",
+                    "+5% de los daños incurables sufridos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "440",
+        "nombre": "Sacrificio",
+        "icono": "icons/440.svg",
+        "descripcion": "Este hechizo permite elegir a un aliado y de sufrir los daños causados sobre este.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos) 2 (C)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores (5 turnos) 2 (C)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "442",
+        "nombre": "Absorción",
+        "icono": "icons/442.svg",
+        "descripcion": "Este hechizo permite que su lanzador le robe vida a un enemigo y le cause daños de fuego a la vez.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 9 a 13 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 14 a 18 PDV (fuego)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 11 a 15 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 16 a 20 PDV (fuego)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 13 a 17 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 18 a 22 PDV (fuego)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 15 a 19 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 20 a 24 PDV (fuego)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 17 a 21 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 22 a 26 PDV (fuego)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 23 a 27 PDV (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Roba 28 a 32 PDV (fuego)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "441",
+        "nombre": "Castigo Vitalesco",
+        "icono": "icons/441.svg",
+        "descripcion": "Este hechizo permite que su lanzador aumente su vitalidad cuando pierde PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 140 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 150 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 200 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 220 durante 2 turno(s). (2 turnos)",
+                    "Estado Debilitado (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "445",
+        "nombre": "Cooperación",
+        "icono": "icons/445.svg",
+        "descripcion": "Este hechizo permite que su lanzador intercambie su posición con la de un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "438",
+        "nombre": "Transposición",
+        "icono": "icons/438.svg",
+        "descripcion": "Permite intercambiar su posición con la de un aliado.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Intercambia las posiciones de 2 jugadores"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "446",
+        "nombre": "Castigo",
+        "icono": "icons/446.svg",
+        "descripcion": "Castigo causa daños de tipo neutral. Cuanto más cerca está la vida del sacrógrito del 50%, más daños puede ocasionar.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 30% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35% de la vida del atacante (neutral)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "447",
+        "nombre": "Furia",
+        "icono": "icons/447.svg",
+        "descripcion": "Este hechizo le permite al lanzador aumentar sus daños.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 10 (agua) 1 (X)",
+                    "+4 a los daños (3 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+4 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 11 (agua) 1 (X)",
+                    "+5 a los daños (3 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+5 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 12 (agua) 1 (X)",
+                    "+6 a los daños (3 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+6 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 13 (agua) 1 (X)",
+                    "+7 a los daños (3 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+7 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 13 (agua) 1 (X)",
+                    "+8 a los daños (3 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+8 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 13 (agua) 1 (X)",
+                    "+8 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (agua) 1 (X)",
+                    "+8 a los daños (4 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "448",
+        "nombre": "Espada Voladora",
+        "icono": "icons/448.svg",
+        "descripcion": "El sacrógrito invoca una espada que volará hasta el enemigo hasta atravesarlo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "435",
+        "nombre": "Transferencia de Vida",
+        "icono": "icons/435.svg",
+        "descripcion": "Este hechizo permite que su lanzador transfiera una parte de sus PDV a sus aliados.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 1 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 1 (C)",
+                    "PDV devueltos: 10 1 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 1 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 1 (C)",
+                    "PDV devueltos: 10 1 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 1 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 1 (C)",
+                    "PDV devueltos: 10 1 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 2 (C)",
+                    "PDV devueltos: 10 2 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 3 (C)",
+                    "PDV devueltos: 10 3 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Entrega 10 % de su vida 4 (C)"
+                ],
+                "efectos_criticos": [
+                    "Entrega 10 % de su vida 4 (C)",
+                    "PDV devueltos: 10 4 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "450",
+        "nombre": "Locura Sanguinaria",
+        "icono": "icons/450.svg",
+        "descripcion": "El sacrógrito absorbe la sangre de uno de sus aliados para recuperar fuerzas aunque eso pueda acabar matando a su compañero.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 300 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 300 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 300 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 300 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 300 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 300 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 300 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 300 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 300 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 300 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "1",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 200 PDV (fijo)"
+                ],
+                "efectos_criticos": [
+                    "Roba 200 PDV (fijo)",
+                    "PDV devueltos: 100"
+                ]
+            }
+        }
+    },
+    {
+        "id": "1911",
+        "nombre": "Invocación de Dopeul Sacrógrito",
+        "icono": "icons/1911.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul sacrógrito que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "421",
+        "nombre": "Dolor Compartido",
+        "icono": "icons/421.svg",
+        "descripcion": "Aumenta los daños que pueden ocasionar los aliados cada vez que reciben daños.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "0",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 60 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "0",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 70 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "0",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 80 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "0",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 90 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "0",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 100 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 110 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Castigo 120 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "Castigo 130 durante 5 turno(s). (5 turnos) 1 (X)",
+                    "+10% de los daños incurables sufridos (5 turnos) 1 (X)"
+                ]
+            }
+        }
+    }
+]

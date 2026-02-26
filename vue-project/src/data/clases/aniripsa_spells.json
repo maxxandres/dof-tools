@@ -1,0 +1,1870 @@
+[
+    {
+        "id": "125",
+        "nombre": "Palabra Prohibida",
+        "icono": "icons/125.svg",
+        "descripcion": "Palabra Prohibida es un ataque muy potente... para un hada.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 8 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 (fuego)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 9 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 (fuego)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 10 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 (fuego)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 11 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 (fuego)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 13 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 19 (fuego)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 16 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 (fuego)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "128",
+        "nombre": "Palabra de Pavor",
+        "icono": "icons/128.svg",
+        "descripcion": "Palabra de Pavor hace retroceder a los enemigos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "1",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "121",
+        "nombre": "Palabra Curativa",
+        "icono": "icons/121.svg",
+        "descripcion": "Palabra Curativa permite recuperar PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 5 a 11"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 16"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 7 a 13"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 20"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 9 a 15"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 24"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 11 a 17"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 28"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 13 a 19"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 32"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 17 a 25"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 40"
+                ]
+            }
+        }
+    },
+    {
+        "id": "124",
+        "nombre": "Palabra Sanadora",
+        "icono": "icons/124.svg",
+        "descripcion": "Palabra Sanadora permite curar a un aliado.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 3 a 6"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 9"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 4 a 7"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 11"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 5 a 8"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 13"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 6 a 9"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 15"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 8 a 11"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 19"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "2",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/35",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 11 a 14"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 20"
+                ]
+            }
+        }
+    },
+    {
+        "id": "122",
+        "nombre": "Palabra Hiriente",
+        "icono": "icons/122.svg",
+        "descripcion": "Palabra Hiriente causa daños de tipo aire.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "6",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 (aire)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "6",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 11 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 (aire)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "6",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 12 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 (aire)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "6",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 13 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 (aire)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "6",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 14 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 (aire)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "106",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 18 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 19 (aire)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "126",
+        "nombre": "Palabra Estimulante",
+        "icono": "icons/126.svg",
+        "descripcion": "Palabra Estimulante aumenta los PA de varios jugadores, pero hiere al lanzador del hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "9",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 PA (3 turnos) 2 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+1 PA (3 turnos) 2 (X)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PA (3 turnos) 2 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+2 PA (3 turnos) 2 (X)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PA (4 turnos) 2 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+2 PA (4 turnos) 2 (X)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PA (4 turnos) 3 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+2 PA (4 turnos) 3 (X)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PA (5 turnos) 4 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+2 PA (5 turnos) 4 (X)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "109",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+2 PA (5 turnos) 5 (X)",
+                    "Daños: 10% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "+2 a 3 PA (5 turnos) 5 (X)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "127",
+        "nombre": "Palabra de Prevención",
+        "icono": "icons/127.svg",
+        "descripcion": "Palabra de Prevención protege contra los daños mágicos y de CaC.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  9 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  12 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  12 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  16 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  16 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  16 (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  20 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  26 (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  23 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  30 (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "113",
+                "coste_pa": "3",
+                "alcance": "0 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños reducidos de  30 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños reducidos de  38 (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "123",
+        "nombre": "Palabra Drenaje",
+        "icono": "icons/123.svg",
+        "descripcion": "Palabra Drenaje hace que los enemigos pierdan PA, pero hiere al lanzador del hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 a 2 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 1 a 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 a 2 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 1 a 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 1 a 3 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "2",
+                "alcance": "1 a 12",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 a 3 (1 turno)",
+                    "Daños: 2% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 a 3 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "130",
+        "nombre": "Palabra Revigorizante",
+        "icono": "icons/130.svg",
+        "descripcion": "Palabra Revigorizante permite curar a varios personajes.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 5 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 6 2 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 6 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 7 2 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 7 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 8 3 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "21",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 8 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 9 3 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 9 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 10 3 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "121",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 7 a 11 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 12 3 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "131",
+        "nombre": "Regeneración",
+        "icono": "icons/131.svg",
+        "descripcion": "Este hechizo permite que su lanzador tenga la facultad de regenerarse.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 4 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 5 (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 4 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 5 (3 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 4 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 5 (3 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 4 (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 5 (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 1 a 4 (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 5 (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "3",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 3 a 6 (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 6 (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "132",
+        "nombre": "Palabra de Espina",
+        "icono": "icons/132.svg",
+        "descripcion": "Palabra de Espina permite que su lanzador pueda reenviar daños mágicos o físicos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 3 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 3 (4 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 4 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 4 (4 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 5 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 5 (4 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 6 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 6 (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 7 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 7 (6 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños devueltos: 1 a 9 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños devueltos: 1 a 9 (6 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "133",
+        "nombre": "Disipar",
+        "icono": "icons/133.svg",
+        "descripcion": "Este hechizo permite disipar los hechizos que hayan sido lanzados sobre un aliado.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "6",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "5",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "5",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "3",
+                "alcance": "0 a 11",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "134",
+        "nombre": "Palabra Vampírica",
+        "icono": "icons/134.svg",
+        "descripcion": "Palabra Vampírica hiere a un enemigo y le roba un poco de vida.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 17 a 22 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 23 PDV (agua)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 18 a 24 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 25 PDV (agua)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 19 a 26 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 27 PDV (agua)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 20 a 28 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 29 PDV (agua)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 21 a 30 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 31 PDV (agua)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 31 a 40 PDV (agua)"
+                ],
+                "efectos_criticos": [
+                    "Roba 41 PDV (agua)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "135",
+        "nombre": "Palabra de Sacrificio",
+        "icono": "icons/135.svg",
+        "descripcion": "Palabra de Sacrificio permite sacrificar una parte de los PDV para transferírselos a un aliado.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 11 a 20",
+                    "PDV devueltos: 11 a 20"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 11 a 20"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 11 a 20",
+                    "PDV devueltos: 11 a 20"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 11 a 20"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 16 a 25",
+                    "PDV devueltos: 16 a 25"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 16 a 25"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 21 a 30",
+                    "PDV devueltos: 21 a 30"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 21 a 30"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 31 a 40",
+                    "PDV devueltos: 31 a 40"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 31 a 40"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "4",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños para el lanzador: 36 a 45",
+                    "PDV devueltos: 36 a 45"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 36 a 45"
+                ]
+            }
+        }
+    },
+    {
+        "id": "129",
+        "nombre": "Palabra de Amistad",
+        "icono": "icons/129.svg",
+        "descripcion": "Palabra de Amistad permite invocar a un conejo curandero.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "3",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "-",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "136",
+        "nombre": "Palabra de Inmovilización",
+        "icono": "icons/136.svg",
+        "descripcion": "Palabra de Inmovilización permite impedir los desplazamientos de un jugador.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (3 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (3 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PM perdidos: 4 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "PM perdidos: 4 (4 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "137",
+        "nombre": "Palabra de Vuelo",
+        "icono": "icons/137.svg",
+        "descripcion": "Palabra de Vuelo te eleva en el aire durante un breve momento para aumentar el alcance.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+1 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+1 a 2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+1 a 2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+2 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+2 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "1",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+2 a 3 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+2 a 3 al alcance (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "1",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+3 al alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "+3 al alcance (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "138",
+        "nombre": "Palabra de Silencio",
+        "icono": "icons/138.svg",
+        "descripcion": "Palabra de Silencio reduce de forma considerable los PA de todo aquel que se encuentre en su zona de efecto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 3 (1 turno) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 4 (1 turno) 2 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 3 (1 turno) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 4 (1 turno) 2 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 4 (1 turno) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 5 (1 turno) 2 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 4 (1 turno) 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 5 (1 turno) 3 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 5 (1 turno) 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 6 (1 turno) 3 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 5 (1 turno) 4 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 6 (1 turno) 4 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "139",
+        "nombre": "Palabra de Altruismo",
+        "icono": "icons/139.svg",
+        "descripcion": "Palabra de Altruismo cura a todo el equipo pero impide el uso de los hechizos de curación de la clase aniripsa.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 30 a 50 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 51 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 40 a 65 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 66 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 50 a 80 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 81 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 60 a 95 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 96 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 70 a 110 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 111 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 80 a 125 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 126 63 (C)",
+                    "Estado Altruista (5 turnos) 63 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "140",
+        "nombre": "Palabra de Reconstitución",
+        "icono": "icons/140.svg",
+        "descripcion": "Palabra de Reconstitución permite restaurar de forma considerable la vida de un jugador.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "8",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 101 a 200"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 301"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "7",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 101 a 200"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 301"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "7",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 151 a 250"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 351"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "7",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 201 a 300"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 451"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "6",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 301 a 400"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 651"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "4",
+                "alcance": "0 a 7",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PDV devueltos: 401 a 500"
+                ],
+                "efectos_criticos": [
+                    "PDV devueltos: 851"
+                ]
+            }
+        }
+    },
+    {
+        "id": "1907",
+        "nombre": "Invocación de Dopeul Aniripsa",
+        "icono": "icons/1907.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul aniripsa que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "427",
+        "nombre": "Palabromb",
+        "icono": "icons/427.svg",
+        "descripcion": "Al principio de cada turno, el blanco del hechizo ocasiona daños alrededor de sí mismo. Dichos daños dependen del número de puntos de vida que tenga.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "6",
+                "alcance": "0 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "1679",
+                    "Cambia la apariencia (1 turno)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    }
+]

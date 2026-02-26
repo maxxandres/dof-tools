@@ -1,0 +1,1942 @@
+[
+    {
+        "id": "686",
+        "nombre": "Tranka",
+        "icono": "icons/686.svg",
+        "descripcion": "Tranka permite que el lanzador se ponga en estado de ebriedad y que aumente sus resistencia a los daños.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (5 turnos)",
+                    "-1 PM (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (6 turnos)",
+                    "-1 PM (6 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (6 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (7 turnos)",
+                    "-1 PM (7 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (7 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (8 turnos)",
+                    "-1 PM (8 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (8 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (9 turnos)",
+                    "-1 PM (9 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (9 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "1",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (10 turnos)",
+                    "-1 PM (10 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (10 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "692",
+        "nombre": "Resaca",
+        "icono": "icons/692.svg",
+        "descripcion": "Resaca permite dar un cabezazo a un enemigo causándole daños de tierra. Es necesario estar en estado de ebriedad para lanzar este hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 11 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 13 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 13 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 15 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 14 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 16 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 16 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 18 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 19 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 21 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 14 a 22 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 a 24 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "687",
+        "nombre": "Puño Flamígero",
+        "icono": "icons/687.svg",
+        "descripcion": "Puño Flamígero causa daños de fuego. Para lanzar este hechizo hace falta estar en estado de ebriedad.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 11 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 13 (fuego)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 12 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 14 (fuego)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 13 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 15 (fuego)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 14 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 16 (fuego)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 15 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 17 (fuego)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 21 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 19 a 24 (fuego)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "689",
+        "nombre": "Terror",
+        "icono": "icons/689.svg",
+        "descripcion": "Hace retroceder al enemigo y reduce sus golpes críticos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a los golpes críticos (2 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 a los golpes críticos (2 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-3 a los golpes críticos (2 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-4 a los golpes críticos (2 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-5 a los golpes críticos (2 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-6 a los golpes críticos (3 turnos)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "690",
+        "nombre": "Soplido Alcoholizado",
+        "icono": "icons/690.svg",
+        "descripcion": "Este hechizo permite causar daños de tipo aire. Es necesario estar ebrio para poder lanzar este hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 12 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 14 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "6",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 14 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 16 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "6",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 16 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 18 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "6",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 18 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 20 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "6",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 20 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 22 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "106",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 22 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 a 24 (aire)",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "691",
+        "nombre": "Vulnerabilidad Acuosa",
+        "icono": "icons/691.svg",
+        "descripcion": "Este hechizo disminuye la resistencia de tipo agua de un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "3% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "4% de debilidad al agua (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "4% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "5% de debilidad al agua (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "5% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "6% de debilidad al agua (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "7% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "8% de debilidad al agua (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "8% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "9% de debilidad al agua (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "109",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "10% de debilidad al agua (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "12% de debilidad al agua (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "688",
+        "nombre": "Vulnerabilidad Incandescente",
+        "icono": "icons/688.svg",
+        "descripcion": "Este hechizo permite rebajar la resistencia de tipo fuego de un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "13",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "3% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "4% de debilidad al fuego (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "13",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "4% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "5% de debilidad al fuego (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "13",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "5% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "6% de debilidad al fuego (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "13",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "7% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "8% de debilidad al fuego (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "13",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "8% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "9% de debilidad al fuego (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "113",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "10% de debilidad al fuego (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "12% de debilidad al fuego (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "693",
+        "nombre": "Karcham",
+        "icono": "icons/693.svg",
+        "descripcion": "Este hechizo permite levantar a un aliado o a un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "17",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "17",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "17",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "17",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "1",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Permite levantar a un jugador"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "694",
+        "nombre": "Vulnerabilidad Ventosa",
+        "icono": "icons/694.svg",
+        "descripcion": "Este hechizo permite rebajar las resistencias de tipo aire de un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "3% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "4% de debilidad al aire (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "4% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "5% de debilidad al aire (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "5% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "6% de debilidad al aire (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "7% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "8% de debilidad al aire (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "8% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "9% de debilidad al aire (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "121",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "10% de debilidad al aire (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "12% de debilidad al aire (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "695",
+        "nombre": "Estabilización",
+        "icono": "icons/695.svg",
+        "descripcion": "Este hechizo hace que su lanzador ya no sea ni empujado ni placado, pero también le impide placar a sus enemigos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+20% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+40% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+25% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+50% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+30% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+60% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "4",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+35% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+70% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "3",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+50% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+100% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+50% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Arraigado (4 turnos)",
+                    "+100% de probabilidades de evitar pérdidas de PM (4 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "696",
+        "nombre": "Chamrak",
+        "icono": "icons/696.svg",
+        "descripcion": "Permite lanzar un personaje transportado.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "1",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Lanza a un jugador"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "697",
+        "nombre": "Vulnerabilidad Terrestre",
+        "icono": "icons/697.svg",
+        "descripcion": "Este hechizo permite rebajar las resistencias de tierra de un enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "3% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "4% de debilidad a la tierra (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "4% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "5% de debilidad a la tierra (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "5% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "6% de debilidad a la tierra (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "7% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "8% de debilidad a la tierra (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "8% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "9% de debilidad a la tierra (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "10% de debilidad a la tierra (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "12% de debilidad a la tierra (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "698",
+        "nombre": "Deshonra",
+        "icono": "icons/698.svg",
+        "descripcion": "Este hechizo produce un efecto aleatorio para desconcentrar al enemigo. Es necesario estar ebrio para lanzar este hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 20% (1 turno)",
+                    "- En 25% de los casos: +3 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 20% (1 turno)",
+                    "+3 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 40% (1 turno)",
+                    "- En 25% de los casos: +6 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 40% (1 turno)",
+                    "+6 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 60% (1 turno)",
+                    "- En 25% de los casos: +8 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 60% (1 turno)",
+                    "+8 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 80% (1 turno)",
+                    "- En 25% de los casos: +10 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 3 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 80% (1 turno)",
+                    "+10 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 3 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 100% (1 turno)",
+                    "- En 25% de los casos: +12 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 3 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 100% (1 turno)",
+                    "+12 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 3 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 25% de los casos: Disminuye los daños en un 150% (1 turno)",
+                    "- En 25% de los casos: +15 a los fallos críticos (1 turno)",
+                    "- En 25% de los casos: Quita los embrujos",
+                    "- En 25% de los casos: PA perdidos por el blanco: 4 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Quita los embrujos",
+                    "Disminuye los daños en un 150% (1 turno)",
+                    "+15 a los fallos críticos (1 turno)",
+                    "PA perdidos por el blanco: 4 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "699",
+        "nombre": "Leche de Bambú",
+        "icono": "icons/699.svg",
+        "descripcion": "Este hechizo permite deshechizar al lanzador y devolverlo a su estado «normal».",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "1",
+                "alcance": "0",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Quita los embrujos",
+                    "Cambia la apariencia",
+                    "Quita el estado ''Borracho''"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "700",
+        "nombre": "Ola Marejadora",
+        "icono": "icons/700.svg",
+        "descripcion": "Este hechizo permite causar daños de agua.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 20 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 a 24 (agua)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "1 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 22 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 a 26 (agua)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 25 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 21 a 30 (agua)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 30 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 26 a 35 (agua)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 33 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 31 a 40 (agua)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 22 a 36 (agua)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 36 a 45 (agua)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "701",
+        "nombre": "Ira de Zatoishwan",
+        "icono": "icons/701.svg",
+        "descripcion": "Este hechizo permite alcanzar la temible Ira de Zatoishwan",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Estado Borracho (3 turnos)",
+                    "Cambia la apariencia (3 turnos)",
+                    "Aumenta los daños en un 100% (3 turnos)",
+                    "+5 a los daños (3 turnos)",
+                    "+5 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Estado Borracho (4 turnos)",
+                    "Cambia la apariencia (4 turnos)",
+                    "Aumenta los daños en un 100% (4 turnos)",
+                    "+5 a los daños (4 turnos)",
+                    "+5 a los golpes críticos (4 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Cambia la apariencia (3 turnos)",
+                    "Estado Borracho (3 turnos)",
+                    "Aumenta los daños en un 110% (3 turnos)",
+                    "+7 a los daños (3 turnos)",
+                    "+7 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Cambia la apariencia (4 turnos)",
+                    "Estado Borracho (4 turnos)",
+                    "Aumenta los daños en un 110% (4 turnos)",
+                    "+7 a los daños (4 turnos)",
+                    "+7 a los golpes críticos (4 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Cambia la apariencia (3 turnos)",
+                    "Estado Borracho (3 turnos)",
+                    "Aumenta los daños en un 120% (3 turnos)",
+                    "+8 a los daños (3 turnos)",
+                    "+8 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Cambia la apariencia (4 turnos)",
+                    "Estado Borracho (4 turnos)",
+                    "Aumenta los daños en un 120% (4 turnos)",
+                    "+8 a los daños (4 turnos)",
+                    "+8 a los golpes críticos (4 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Cambia la apariencia (3 turnos)",
+                    "Estado Borracho (3 turnos)",
+                    "Aumenta los daños en un 130% (3 turnos)",
+                    "+9 a los daños (3 turnos)",
+                    "+9 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Cambia la apariencia (4 turnos)",
+                    "Estado Borracho (4 turnos)",
+                    "Aumenta los daños en un 130% (4 turnos)",
+                    "+9 a los daños (4 turnos)",
+                    "+9 a los golpes críticos (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Cambia la apariencia (3 turnos)",
+                    "Estado Borracho (3 turnos)",
+                    "Aumenta los daños en un 140% (3 turnos)",
+                    "+10 a los daños (3 turnos)",
+                    "+10 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Cambia la apariencia (4 turnos)",
+                    "Estado Borracho (4 turnos)",
+                    "Aumenta los daños en un 140% (4 turnos)",
+                    "+10 a los daños (4 turnos)",
+                    "+10 a los golpes críticos (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Cambia la apariencia (3 turnos)",
+                    "Estado Borracho (3 turnos)",
+                    "Aumenta los daños en un 200% (3 turnos)",
+                    "+11 a los daños (3 turnos)",
+                    "+11 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Cambia la apariencia (4 turnos)",
+                    "Estado Borracho (4 turnos)",
+                    "Aumenta los daños en un 200% (4 turnos)",
+                    "+11 a los daños (4 turnos)",
+                    "+11 a los golpes críticos (4 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "702",
+        "nombre": "Frasco Explosivo",
+        "icono": "icons/702.svg",
+        "descripcion": "Este hechizo permite lanzar una botella de alcohol que explota al tocar el suelo, causando daños de fuego a los jugadores que se encuentran en el área de efecto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "6",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 15 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 18 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 17 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 20 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 19 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 24 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "3",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 23 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 a 30 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "2",
+                "alcance": "2 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 25 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 21 a 35 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "2",
+                "alcance": "2 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 30 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 26 a 40 (fuego) 2 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "703",
+        "nombre": "Pandatak",
+        "icono": "icons/703.svg",
+        "descripcion": "Con este hechizo conseguirás que tres pandawas (que causan daños de tierra) ayuden al tuyo contra sus enemigos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 15 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 a 18 (tierra) 2 (L)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 14 a 18 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 a 21 (tierra) 2 (L)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 21 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 21 a 26 (tierra) 2 (L)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 26 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 26 a 33 (tierra) 2 (L)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 23 a 32 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 31 a 35 (tierra) 2 (L)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "4",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 26 a 35 (tierra) 2 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 36 a 40 (tierra) 2 (L)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "704",
+        "nombre": "Pandenkulo",
+        "icono": "icons/704.svg",
+        "descripcion": "Con este hechizo el lanzador aumentará sus PM o los de sus aliados. Es necesario el estado de ebriedad para poder lanzarlo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+2 PM (4 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+2 a 3 PM (4 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+2 a 3 PM (4 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a 2 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+2 a 3 PM (4 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "2",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+2 a 3 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+3 a 4 PM (4 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+3 PM (4 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+4 PM (4 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "705",
+        "nombre": "Enlace Espirituoso",
+        "icono": "icons/705.svg",
+        "descripcion": "Con este hechizo invocarás a un viejo maestro pandawa. Es necesario estar ebrio para poder lanzar este hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "7",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "6",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "1912",
+        "nombre": "Invocación de Dopeul Pandawa",
+        "icono": "icons/1912.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul pandawa que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "423",
+        "nombre": "Embriaguez",
+        "icono": "icons/423.svg",
+        "descripcion": "Invoca una vasija que atrae a los enemigos y, cuando el lanzador la transporta, sana a quienes lo rodean.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    }
+]

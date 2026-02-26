@@ -1,0 +1,2080 @@
+[
+    {
+        "id": "102",
+        "nombre": "Cara o Cruz",
+        "icono": "icons/102.svg",
+        "descripcion": "Cara o Cruz causa daños de tierra a un enemigo aunque si el destino lo decide así, también puede curarlo...",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 11 (tierra)",
+                    "PDV devueltos: 1 a 7",
+                    "PDV devueltos: 6 a 10"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 12 (tierra)",
+                    "PDV devueltos: 1 a 3",
+                    "PDV devueltos: 11 a 15"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 12 (tierra)",
+                    "PDV devueltos: 2 a 9",
+                    "PDV devueltos: 6 a 12"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 13 (tierra)",
+                    "PDV devueltos: 1 a 4",
+                    "PDV devueltos: 13 a 17"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 13 (tierra)",
+                    "PDV devueltos: 2 a 9",
+                    "PDV devueltos: 6 a 14"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 14 (tierra)",
+                    "PDV devueltos: 1 a 4",
+                    "PDV devueltos: 15 a 19"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 14 (tierra)",
+                    "PDV devueltos: 3 a 10",
+                    "PDV devueltos: 6 a 16"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 15 (tierra)",
+                    "PDV devueltos: 1 a 5",
+                    "PDV devueltos: 17 a 21"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "3",
+                "alcance": "0 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 15 (tierra)",
+                    "PDV devueltos: 4 a 11",
+                    "PDV devueltos: 6 a 18"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 17 (tierra)",
+                    "PDV devueltos: 1 a 5",
+                    "PDV devueltos: 19 a 23"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "3",
+                "alcance": "0 a 7",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 19 (tierra)",
+                    "PDV devueltos: 5 a 12",
+                    "PDV devueltos: 8 a 22"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 24 (tierra)",
+                    "PDV devueltos: 1 a 5",
+                    "PDV devueltos: 23 a 27"
+                ]
+            }
+        }
+    },
+    {
+        "id": "103",
+        "nombre": "Suerte de Zurcarák",
+        "icono": "icons/103.svg",
+        "descripcion": "Cuando te atacan, Suerte de Zurcarák te devuelve PDV o multiplica los daños recibidos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x2, o de que te cure x1 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x2, o de que te cure x1 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x2, o de que te cure x1 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x2, o de que te cure x1 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x2, o de que te cure x1 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (3 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "50% de posibilidades de que sufras daños x3, o de que te cure x2 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "50% de posibilidades de que sufras daños x4, o de que te cure x3 (3 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "105",
+        "nombre": "Salto del Felino",
+        "icono": "icons/105.svg",
+        "descripcion": "Salto Felino permite desplazarse más rápido y más lejos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "2",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "1",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Teletransporta a una distancia de 1 casillas máximo"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "109",
+        "nombre": "Farol",
+        "icono": "icons/109.svg",
+        "descripcion": "Farol causa de forma aleatoria daños de aire o de agua.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 22 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 22 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 25 (aire)",
+                    "- En 50% de los casos: Daños: 25 (agua)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 25 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 25 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 28 (aire)",
+                    "- En 50% de los casos: Daños: 28 (agua)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 28 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 28 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 33 (aire)",
+                    "- En 50% de los casos: Daños: 33 (agua)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 35 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 35 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 40 (aire)",
+                    "- En 50% de los casos: Daños: 40 (agua)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 45 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 45 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 50 (aire)",
+                    "- En 50% de los casos: Daños: 50 (agua)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "- En 50% de los casos: Daños: 1 a 50 (agua)",
+                    "- En 50% de los casos: Daños: 1 a 50 (aire)"
+                ],
+                "efectos_criticos": [
+                    "- En 50% de los casos: Daños: 55 (aire)",
+                    "- En 50% de los casos: Daños: 55 (agua)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "113",
+        "nombre": "Percepción",
+        "icono": "icons/113.svg",
+        "descripcion": "Percepción revela al lanzador del hechizo y a sus aliados la posición de trampas y de personajes ocultos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 3 (C)",
+                    "+2 a 4 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 3 (C)",
+                    "+5 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 4 (C)",
+                    "+2 a 5 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 4 (C)",
+                    "+6 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 5 (C)",
+                    "+3 a 6 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 5 (C)",
+                    "+7 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+3 a 7 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 6 (C)",
+                    "+8 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "6",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 7 (C)",
+                    "+4 a 9 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 7 (C)",
+                    "+10 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "106",
+                "coste_pa": "2",
+                "alcance": "0",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Revela todos los objetos invisibles 9 (C)",
+                    "+6 a 11 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Revela todos los objetos invisibles 9 (C)",
+                    "+12 a los daños (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "111",
+        "nombre": "Contragolpe",
+        "icono": "icons/111.svg",
+        "descripcion": "Contragolpe aumenta considerablemente la vitalidad durante un corto período de tiempo aunque a expensas de unos cuantos PDV.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+40 a 80 a la vitalidad (2 turnos)",
+                    "Daños: 6% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+60 a 120 a la vitalidad (3 turnos)",
+                    "Daños: 5% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+80 a 160 a la vitalidad (4 turnos)",
+                    "Daños: 4% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+100 a 200 a la vitalidad (4 turnos)",
+                    "Daños: 3% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "9",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+120 a 200 a la vitalidad (5 turnos)",
+                    "Daños: 2% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "109",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+140 a 250 a la vitalidad (5 turnos)",
+                    "Daños: 1% de la vida del atacante (neutral) (1 turno)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "104",
+        "nombre": "Trébol",
+        "icono": "icons/104.svg",
+        "descripcion": "Trébol aumenta los golpes críticos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+1 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+2 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+2 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+3 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+3 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+4 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "13",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+5 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+7 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "13",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+7 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+8 a los golpes críticos (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "113",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+10 a los golpes críticos (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+11 a los golpes críticos (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "119",
+        "nombre": "Todo o Nada",
+        "icono": "icons/119.svg",
+        "descripcion": "Todo o Nada causa daños a todos los jugadores o les devuelve PDV si tienen suerte.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "17",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 7 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 2 a 7 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 20 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 3 a 14 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 3 a 14 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 40 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "17",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 12 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 3 a 12 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 25 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 24 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 5 a 24 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "17",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 17 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 3 a 17 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 30 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 34 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 5 a 34 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 60 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "17",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 22 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 3 a 22 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 35 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 44 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 5 a 44 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 70 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "17",
+                "coste_pa": "4",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 28 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 28 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 40 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 56 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 7 a 56 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 80 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 76 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 7 a 76 (2 turnos) 8 (C)",
+                    "PDV devueltos: 21 a 100 (2 turnos) 8 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "101",
+        "nombre": "Ruleta",
+        "icono": "icons/101.svg",
+        "descripcion": "Ruleta puede provocar muy diversos efectos. Estos afectarán aleatoriamente al invocador, a los enemigos, a los aliados, o a cualquier combinación de estos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "117",
+                "coste_pa": "3",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 38 (neutrales) (2 turnos) 8 (C)",
+                    "PDV devueltos: 4 a 38 (2 turnos) 8 (C)",
+                    "PDV devueltos: 11 a 50 (2 turnos) 8 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "107",
+        "nombre": "Topkaj",
+        "icono": "icons/107.svg",
+        "descripcion": "Topkaj causa importantes daños de fuego.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 20 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 24 (fuego)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 22 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 a 26 (fuego)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 24 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 a 28 (fuego)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "5",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 28 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 18 a 30 (fuego)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 18 a 30 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 a 32 (fuego)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 31 (fuego)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 22 a 34 (fuego)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "116",
+        "nombre": "Lengua Raspadora",
+        "icono": "icons/116.svg",
+        "descripcion": "Lengua Raspadora causa daños de fuego y disminuye el alcance del enemigo si logra un golpe crítico.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 12 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-1 al alcance (2 turnos) 1 (X)",
+                    "Daños: 6 a 15 (fuego) 1 (X)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/46",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 14 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-1 al alcance (4 turnos) 1 (X)",
+                    "Daños: 8 a 17 (fuego) 1 (X)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/42",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 16 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-1 al alcance (6 turnos) 1 (X)",
+                    "Daños: 8 a 17 (fuego) 1 (X)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/38",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 18 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-1 al alcance (8 turnos) 1 (X)",
+                    "Daños: 11 a 20 (fuego) 1 (X)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/34",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 20 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-1 al alcance (10 turnos) 1 (X)",
+                    "Daños: 13 a 22 (fuego) 1 (X)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 25 (fuego) 1 (X)"
+                ],
+                "efectos_criticos": [
+                    "-2 al alcance (12 turnos) 1 (X)",
+                    "Daños: 18 a 27 (fuego) 1 (X)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "106",
+        "nombre": "Rueda de la Fortuna",
+        "icono": "icons/106.svg",
+        "descripcion": "Rueda de la Fortuna duplica los daños pero hace perder unos PDV al que lo lanza.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "5",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 100% (2 turnos)",
+                    "Daños: 1 a 5% de la vida del atacante (neutral)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 200% (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "117",
+        "nombre": "Garra Invocadora",
+        "icono": "icons/117.svg",
+        "descripcion": "Este hechizo permite invocar a un felino.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "3",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "108",
+        "nombre": "Espíritu Felino",
+        "icono": "icons/108.svg",
+        "descripcion": "Espíritu Felino es un ataque de cuerpo a cuerpo que causa daños de tierra pero que también puede volverse contra el que lanza el hechizo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 20 (tierra)",
+                    "- En 50% de los casos: Daños: 11 a 20 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 (tierra)",
+                    "- En 50% de los casos: Daños: 20 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 25 (tierra)",
+                    "- En 50% de los casos: Daños: 16 a 25 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 (tierra)",
+                    "- En 50% de los casos: Daños: 25 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 30 (tierra)",
+                    "- En 50% de los casos: Daños: 21 a 30 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 30 (tierra)",
+                    "- En 50% de los casos: Daños: 30 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 35 (tierra)",
+                    "- En 50% de los casos: Daños: 21 a 35 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35 (tierra)",
+                    "- En 50% de los casos: Daños: 35 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 26 a 40 (tierra)",
+                    "- En 50% de los casos: Daños: 26 a 40 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 40 (tierra)",
+                    "- En 50% de los casos: Daños: 40 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "3",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 36 a 50 (tierra)",
+                    "- En 50% de los casos: Daños: 36 a 50 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ],
+                "efectos_criticos": [
+                    "Daños: 50 (tierra)",
+                    "- En 50% de los casos: Daños: 50 (tierra)",
+                    "- En 50% de los casos: Ningún efecto adicional"
+                ]
+            }
+        }
+    },
+    {
+        "id": "115",
+        "nombre": "Olfato",
+        "icono": "icons/115.svg",
+        "descripcion": "El lanzador del hechizo hace que todos los jugadores presentes a su alrededor tengan el olfato súper sensible, lo cual podrá desconcentrarles o motivarles dependiendo de lo que huelan...",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 2 PA (3 turnos) 5 (C)",
+                    "+1 a 2 PA (3 turnos) 5 (C)",
+                    "-1 a 2 PM (3 turnos) 5 (C)",
+                    "+1 a 2 PM (3 turnos) 5 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 2 PA (6 turnos) 5 (C)",
+                    "+1 a 2 PA (6 turnos) 5 (C)",
+                    "-1 a 2 PM (6 turnos) 5 (C)",
+                    "+1 a 2 PM (6 turnos) 5 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 2 PA (3 turnos) 5 (C)",
+                    "+2 a 3 PA (3 turnos) 5 (C)",
+                    "-1 a 2 PM (3 turnos) 5 (C)",
+                    "+2 a 3 PM (3 turnos) 5 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 2 PA (6 turnos) 5 (C)",
+                    "+2 a 3 PA (6 turnos) 5 (C)",
+                    "-1 a 2 PM (6 turnos) 5 (C)",
+                    "+2 a 3 PM (6 turnos) 5 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 3 PA (3 turnos) 5 (C)",
+                    "+2 a 4 PA (3 turnos) 5 (C)",
+                    "-1 a 3 PM (3 turnos) 5 (C)",
+                    "+2 a 4 PM (3 turnos) 5 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 3 PA (6 turnos) 5 (C)",
+                    "+2 a 4 PA (6 turnos) 5 (C)",
+                    "-1 a 3 PM (6 turnos) 5 (C)",
+                    "+2 a 4 PM (6 turnos) 5 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 3 PA (3 turnos) 5 (C)",
+                    "+2 a 4 PA (3 turnos) 5 (C)",
+                    "-1 a 4 PM (3 turnos) 5 (C)",
+                    "+2 a 5 PM (3 turnos) 5 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 3 PA (6 turnos) 5 (C)",
+                    "+2 a 4 PA (6 turnos) 5 (C)",
+                    "-1 a 4 PM (6 turnos) 5 (C)",
+                    "+2 a 5 PM (6 turnos) 5 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "6",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 4 PA (3 turnos) 5 (C)",
+                    "+2 a 5 PA (3 turnos) 5 (C)",
+                    "-1 a 4 PM (3 turnos) 5 (C)",
+                    "+2 a 5 PM (3 turnos) 5 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 4 PA (6 turnos) 5 (C)",
+                    "+2 a 5 PA (6 turnos) 5 (C)",
+                    "-1 a 4 PM (6 turnos) 5 (C)",
+                    "+2 a 5 PM (6 turnos) 5 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "5",
+                "alcance": "0",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-1 a 4 PA (4 turnos) 6 (C)",
+                    "+2 a 5 PA (4 turnos) 6 (C)",
+                    "-1 a 4 PM (4 turnos) 6 (C)",
+                    "+2 a 5 PM (4 turnos) 6 (C)"
+                ],
+                "efectos_criticos": [
+                    "-1 a 4 PA (8 turnos) 6 (C)",
+                    "+2 a 5 PA (8 turnos) 6 (C)",
+                    "-1 a 4 PM (8 turnos) 6 (C)",
+                    "+2 a 5 PM (8 turnos) 6 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "118",
+        "nombre": "Reflejos",
+        "icono": "icons/118.svg",
+        "descripcion": "El hechizo Reflejos permite aumentar de forma considerable los puntos de agilidad.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "6",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+15 a 35 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+20 a 60 a la agilidad (5 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "5",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+20 a 45 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+25 a 75 a la agilidad (5 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+25 a 55 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+30 a 90 a la agilidad (5 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+30 a 65 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+35 a 105 a la agilidad (5 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+45 a 90 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+50 a 140 a la agilidad (5 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+65 a 135 a la agilidad (5 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+70 a 210 a la agilidad (5 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "110",
+        "nombre": "Garra Juguetona",
+        "icono": "icons/110.svg",
+        "descripcion": "Este ataque causa daños de tierra horizontales o verticales y hiere a todos los jugadores que se encuentren en su zona de efecto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 15 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 16 (tierra) 3 (L)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 17 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 18 (tierra) 3 (L)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 14 a 19 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 (tierra) 3 (L)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 18 a 23 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 (tierra) 3 (L)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "5",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 26 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 30 (tierra) 3 (L)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 24 a 29 (tierra) 3 (L)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 35 (tierra) 3 (L)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "112",
+        "nombre": "Garra de Ceangal",
+        "icono": "icons/112.svg",
+        "descripcion": "Garra de Ceangal causa daños de tierra y puede hacer perder un PA durante varios turnos si se logra un golpe crítico.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 25 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (3 turnos)",
+                    "Daños: 13 a 25 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 28 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (4 turnos)",
+                    "Daños: 13 a 28 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 31 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (5 turnos)",
+                    "Daños: 13 a 31 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 34 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (6 turnos)",
+                    "Daños: 13 a 34 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 15 a 39 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (7 turnos)",
+                    "Daños: 15 a 39 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/45",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 45 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-1 PA (8 turnos)",
+                    "Daños: 21 a 45 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "114",
+        "nombre": "Rekop",
+        "icono": "icons/114.svg",
+        "descripcion": "Este hechizo causa monstruosos daños de fuego, tierra, agua y aire aunque hay un 50% de probabilidades de que te haga perder un punto de acción.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 20 (agua)",
+                    "Daños: 11 a 20 (aire)",
+                    "Daños: 11 a 20 (fuego)",
+                    "Daños: 11 a 20 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 25 (agua)",
+                    "Daños: 11 a 25 (aire)",
+                    "Daños: 11 a 25 (fuego)",
+                    "Daños: 11 a 25 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 30 (agua)",
+                    "Daños: 11 a 30 (aire)",
+                    "Daños: 11 a 30 (fuego)",
+                    "Daños: 11 a 30 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "6",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 35 (agua)",
+                    "Daños: 11 a 35 (aire)",
+                    "Daños: 11 a 35 (fuego)",
+                    "Daños: 11 a 35 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "5",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 41 (agua)",
+                    "Daños: 12 a 41 (aire)",
+                    "Daños: 12 a 41 (fuego)",
+                    "Daños: 12 a 41 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/2",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 1 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 41 (agua)",
+                    "Daños: 12 a 41 (aire)",
+                    "Daños: 12 a 41 (fuego)",
+                    "Daños: 12 a 41 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "120",
+        "nombre": "Destino de Zurcarák",
+        "icono": "icons/120.svg",
+        "descripcion": "Destino de Zurcarák causa daños de tierra y le quita un PM a un enemigo durante varios turnos si se logra un golpe crítico.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 1 a 20 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "6",
+                "alcance": "1",
+                "probabilidad_critico": "1/29",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 23 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/28",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 26 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/27",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 29 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "5",
+                "alcance": "1",
+                "probabilidad_critico": "1/25",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 37 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "4",
+                "alcance": "1",
+                "probabilidad_critico": "1/20",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 37 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 75 (tierra)",
+                    "Hace retroceder de 5 casilla(s)",
+                    "-1 PM (8 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "1906",
+        "nombre": "Invocación de Dopeul Zurcarák",
+        "icono": "icons/1906.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul zuracrák que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "412",
+        "nombre": "Feliación",
+        "icono": "icons/412.svg",
+        "descripcion": "Con este hechizo harás retroceder tanto a enemigos como a los aliados, pero además, podrás robarle vida a los primeros y curar a los segundos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 11 a 20 PDV (tierra)",
+                    "PDV devueltos: 21 a 50",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 21 a 25 PDV (tierra)",
+                    "PDV devueltos: 51 a 55",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 12 a 21 PDV (tierra)",
+                    "PDV devueltos: 23 a 54",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 22 a 26 PDV (tierra)",
+                    "PDV devueltos: 55 a 59",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 13 a 22 PDV (tierra)",
+                    "PDV devueltos: 25 a 58",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 23 a 27 PDV (tierra)",
+                    "PDV devueltos: 59 a 63",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 14 a 23 PDV (tierra)",
+                    "PDV devueltos: 27 a 62",
+                    "Hace retroceder de 1 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 24 a 28 PDV (tierra)",
+                    "PDV devueltos: 63 a 67",
+                    "Hace retroceder de 1 casilla(s)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "0",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 15 a 24 PDV (tierra)",
+                    "PDV devueltos: 29 a 66",
+                    "Hace retroceder de 2 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 25 a 29 PDV (tierra)",
+                    "PDV devueltos: 67 a 71",
+                    "Hace retroceder de 2 casilla(s)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "4",
+                "alcance": "4",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 19 a 28 PDV (tierra)",
+                    "PDV devueltos: 36 a 75",
+                    "Hace retroceder de 2 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Roba 29 a 33 PDV (tierra)",
+                    "PDV devueltos: 76 a 80",
+                    "Hace retroceder de 2 casilla(s)"
+                ]
+            }
+        }
+    }
+]

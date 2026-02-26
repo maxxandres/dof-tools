@@ -225,8 +225,8 @@
       <!-- Ingresar Datos -->
 
 <script>
-import tablaXpData from '../data/tabla_xp_acumulada.json';
-import datosExtrasData from '../data/datos_extras.json';
+import tablaXpData from '../data/xp/tabla_xp_acumulada.json';
+import datosExtrasData from '../data/prix/datos_extras.json';
 
 // Image imports
 import bworkerImg from '../data/images/Bworker.webp';

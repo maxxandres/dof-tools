@@ -1,0 +1,44 @@
+{
+    "Agilidad": {
+        "pequeno": 3331,
+        "mediano": 5533,
+        "grande": 8999,
+        "poderoso": 18865
+    },
+    "Vitalidad": {
+        "pequeno": 6494,
+        "mediano": 12489,
+        "grande": 13333,
+        "poderoso": 29300
+    },
+    "Fuerza": {
+        "pequeno": 8395,
+        "mediano": 9898,
+        "grande": 11894,
+        "poderoso": 14000
+    },
+    "Inteligencia": {
+        "pequeno": 10993,
+        "mediano": 7600,
+        "grande": 11774,
+        "poderoso": 9899
+    },
+    "Suerte": {
+        "pequeno": 9998,
+        "mediano": 16000,
+        "grande": 14000,
+        "poderoso": 26995
+    },
+    "Sabiduría": {
+        "pequeno": 1994,
+        "mediano": 7700,
+        "grande": 15999,
+        "poderoso": 15400
+    },
+    "Hechizos": {
+        "pequeno": 150000,
+        "mediano": 150000,
+        "grande": 150000,
+        "poderoso": 150000
+    }
+}

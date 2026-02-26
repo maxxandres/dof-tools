@@ -3,15 +3,44 @@
     <div class="app-header-brand">
       <img src="../data/images/redemption-logo.png" alt="Redemption Logo" class="app-header-logo-img" />
       <span class="app-header-title">Redemption Tools</span>
-      <button class="nav-btn active">Calculadora de XP</button>
+      <div style="display: flex; gap: 0.5rem; margin-left: 1rem;">
+        <button 
+          :class="['nav-btn', { active: currentView === 'xp' }]"
+          @click="$emit('change-view', 'xp')"
+        >
+          <img src="../data/images/XPgoldicone.svg" alt="XP" class="nav-icon" />
+         XP
+        </button>
+        <button 
+          :class="['nav-btn', { active: currentView === 'scrolls' }]"
+          @click="$emit('change-view', 'scrolls')"
+        >
+          <img src="../data/images/parcheminfiltreicon.svg" alt="Scroll" class="nav-icon" />
+          Scrolls
+        </button>
+        <button 
+          :class="['nav-btn', { active: currentView === 'spells' }]"
+          @click="$emit('change-view', 'spells')"
+        >
+          <!-- Using the same icon temporarily or you can replace it if needed -->
+          <img src="../data/images/spellparcho.svg" alt="Spells" class="nav-icon" />
+          Pergaminos de Hechizos
+        </button>
+      </div>
     </div>
-    <span class="app-header-credits">Created by Glifo &amp; Dacero</span>
+    <span class="app-header-credits">Created by Glifo</span>
   </header>
 </template>
 
 <script>
 export default {
   name: 'AppHeader',
+  props: {
+    currentView: {
+      type: String,
+      default: 'xp'
+    }
+  }
 }
 </script>
 
@@ -26,8 +55,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 0.8rem 2.5rem;
-  background: rgba(8, 14, 36, 0.92);
-  border-bottom: 1px solid rgba(14, 165, 233, 0.2);
+  background: rgba(35, 35, 35, 0.95);
+  border-bottom: 1px solid rgba(80, 80, 80, 0.3);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
@@ -55,6 +84,9 @@ export default {
 }
 
 .nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   background: rgba(14, 165, 233, 0.15);
   border: 1px solid rgba(14, 165, 233, 0.4);
   color: #38bdf8;
@@ -65,6 +97,12 @@ export default {
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.5));
 }
 
 .nav-btn.active {

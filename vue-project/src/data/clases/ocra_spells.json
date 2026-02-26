@@ -1,0 +1,2032 @@
+[
+    {
+        "id": "169",
+        "nombre": "Flecha de Retroceso",
+        "icono": "icons/169.svg",
+        "descripcion": "Flecha de Retroceso causa daños de tipo aire y hace retroceder al enemigo con el impacto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 3",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 14 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 16 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 4",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 15 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 a 17 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 16 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 a 18 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 14 a 17 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 a 20 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 15 a 18 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 18 a 21 (aire)",
+                    "Hace retroceder de 3 casilla(s)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 18 a 21 (aire)",
+                    "Hace retroceder de 4 casilla(s)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 21 a 24 (aire)",
+                    "Hace retroceder de 4 casilla(s)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "164",
+        "nombre": "Flecha Envenenada",
+        "icono": "icons/164.svg",
+        "descripcion": "Este hechizo causa daños neutros durante varios turnos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "2 a 5",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 3 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 (neutrales) (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "2 a 6",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 4 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 (neutrales) (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "2 a 7",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 5 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 (neutrales) (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "2 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 6 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 (neutrales) (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "2 a 9",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 7 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 (neutrales) (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "4",
+                "alcance": "2 a 10",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (neutrales) (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 (neutrales) (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "161",
+        "nombre": "Flecha Mágica",
+        "icono": "icons/161.svg",
+        "descripcion": "Este hechizo causa daños de fuego a distancia y reduce el alcance del objetivo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 10 a 12 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 14 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 13 a 15 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 12 a 14 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 a 16 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "1",
+                "coste_pa": "4",
+                "alcance": "1 a 11",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 15 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 15 a 17 (fuego)",
+                    "Roba 1 de alcance (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "101",
+                "coste_pa": "4",
+                "alcance": "1 a 12",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 20 a 22 (fuego)",
+                    "Roba 2 de alcance (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 24 a 26 (fuego)",
+                    "Roba 2 de alcance (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "163",
+        "nombre": "Flecha Helada",
+        "icono": "icons/163.svg",
+        "descripcion": "Flecha Helada ocasiona daños de fuego y hace perder PA al enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "165",
+        "nombre": "Flecha Helada",
+        "icono": "icons/163.svg",
+        "descripcion": "Flecha Helada ocasiona daños de fuego y hace perder PA al enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "172",
+        "nombre": "Flecha Helada",
+        "icono": "icons/163.svg",
+        "descripcion": "Flecha Helada ocasiona daños de fuego y hace perder PA al enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "167",
+        "nombre": "Flecha Helada",
+        "icono": "icons/163.svg",
+        "descripcion": "Flecha Helada ocasiona daños de fuego y hace perder PA al enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "168",
+        "nombre": "Flecha Helada",
+        "icono": "icons/163.svg",
+        "descripcion": "Flecha Helada ocasiona daños de fuego y hace perder PA al enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "3",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "103",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (fuego)",
+                    "PA perdidos por el blanco: 2 (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "162",
+        "nombre": "Disparo Crítico",
+        "icono": "icons/162.svg",
+        "descripcion": "Disparo Crítico otorga una bonificación para el golpe crítico.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+9 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+9 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 10% (3 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+10 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+10 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 15% (3 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+11 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+11 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 20% (3 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+12 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+12 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 25% (3 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "21",
+                "coste_pa": "2",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+13 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+13 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 30% (3 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "121",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+14 a los golpes críticos (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+14 a los golpes críticos (3 turnos)",
+                    "Aumenta los daños en un 50% (3 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "170",
+        "nombre": "Flecha Inmovilizadora",
+        "icono": "icons/170.svg",
+        "descripcion": "Flecha Inmovilizadora ocasiona daños de agua y roba PM a la víctima.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 4 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 5 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 5 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 5 a 6 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 6 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 7 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 7 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 10 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "26",
+                "coste_pa": "2",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 8 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 11 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "126",
+                "coste_pa": "2",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 10 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 13 (agua)",
+                    "Roba #1{~1~2 à }#2 PM"
+                ]
+            }
+        }
+    },
+    {
+        "id": "171",
+        "nombre": "Flecha Castigadora",
+        "icono": "icons/171.svg",
+        "descripcion": "Ocasiona daños de tierra y aumenta los daños del hechizo cada dos turnos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 15 a 17 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 16 (3 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 20 a 22 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 21 (3 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 17 a 19 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 18 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 22 a 24 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 23 (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 21 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 20 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 23 a 25 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 24 (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 23 a 25 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 24 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 29 a 31 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 30 (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "31",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 25 a 27 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 26 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 30 a 32 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 31 (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "131",
+                "coste_pa": "4",
+                "alcance": "6 a 8",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 31 a 33 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 32 (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 37 a 39 (tierra)",
+                    "Aumenta los daños de base del hechizo 171 en 38 (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "166",
+        "nombre": "Disparo Potente",
+        "icono": "icons/166.svg",
+        "descripcion": "Disparo Potente aumenta los daños de los demás hechizos y armas.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 110% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 130% (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 120% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 140% (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 130% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 150% (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 140% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 160% (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "36",
+                "coste_pa": "3",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 150% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 170% (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "136",
+                "coste_pa": "3",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Aumenta los daños en un 250% (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "Aumenta los daños en un 290% (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "173",
+        "nombre": "Flecha Acosadora",
+        "icono": "icons/173.svg",
+        "descripcion": "Flecha Acosadora permite causar daños de tipo aire sin tener que preocuparse por los posibles obstáculos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 7 a 9 (aire)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (aire)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 7 a 9 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 10 a 12 (aire)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 8 a 10 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 11 a 13 (aire)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "42",
+                "coste_pa": "3",
+                "alcance": "1 a 11",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 9 a 11 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 12 a 14 (aire)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "142",
+                "coste_pa": "3",
+                "alcance": "1 a 12",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 15 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 17 a 19 (aire)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "174",
+        "nombre": "Flecha Azotadora",
+        "icono": "icons/174.svg",
+        "descripcion": "Flecha Azotadora causa daños de tierra y le quita PM. No hay posibilidad de esquiva.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 5",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 6 a 7 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 8 a 9 (tierra)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 6",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 7 a 8 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 9 a 10 (tierra)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 8 a 9 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 11 a 12 (tierra)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 9 a 10 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 12 a 13 (tierra)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "48",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 10 a 11 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-2 PM (1 turno)",
+                    "Daños: 13 a 14 (tierra)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "148",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "-3 PM (1 turno)",
+                    "Daños: 13 a 14 (tierra)"
+                ],
+                "efectos_criticos": [
+                    "-3 PM (1 turno)",
+                    "Daños: 17 a 18 (tierra)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "176",
+        "nombre": "Flecha Perseguidora",
+        "icono": "icons/176.svg",
+        "descripcion": "Ocasiona daños de aire y fuego.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 2 a 4 (fuego)",
+                    "Daños: 2 a 4 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 3 a 5 (fuego)",
+                    "Daños: 3 a 5 (aire)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 3 a 5 (fuego)",
+                    "Daños: 3 a 5 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "Daños: 4 a 6 (aire)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 4 a 6 (fuego)",
+                    "Daños: 4 a 6 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "Daños: 6 a 8 (aire)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 5 a 7 (fuego)",
+                    "Daños: 5 a 7 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 8 a 10 (fuego)",
+                    "Daños: 8 a 10 (aire)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "54",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 6 a 8 (fuego)",
+                    "Daños: 6 a 8 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 9 a 11 (fuego)",
+                    "Daños: 9 a 11 (aire)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "154",
+                "coste_pa": "3",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/40",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 11 a 13 (fuego)",
+                    "Daños: 11 a 13 (aire)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 14 a 16 (fuego)",
+                    "Daños: 14 a 16 (aire)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "175",
+        "nombre": "Flecha Destructora",
+        "icono": "icons/175.svg",
+        "descripcion": "Flecha destructora causa daños de tierra y reduce los daños causados por el enemigo.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 13 a 15 (tierra)",
+                    "-11 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 18 a 20 (tierra)",
+                    "-11 a los daños (1 turno)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 15 a 17 (tierra)",
+                    "-12 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 21 a 23 (tierra)",
+                    "-12 a los daños (1 turno)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 17 a 19 (tierra)",
+                    "-13 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 23 a 25 (tierra)",
+                    "-13 a los daños (1 turno)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 21 (tierra)",
+                    "-14 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 27 a 29 (tierra)",
+                    "-14 a los daños (1 turno)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "60",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 21 a 23 (tierra)",
+                    "-15 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 29 a 31 (tierra)",
+                    "-15 a los daños (1 turno)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "160",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 26 a 28 (tierra)",
+                    "-20 a los daños (1 turno)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 36 a 38 (tierra)",
+                    "-20 a los daños (1 turno)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "178",
+        "nombre": "Flecha Absorbente",
+        "icono": "icons/178.svg",
+        "descripcion": "Flecha Absorbente permite robarle vida a un enemigo de tipo aire.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 13 a 15 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 18 a 20 PDV (aire)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 15 a 17 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 21 a 23 PDV (aire)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 17 a 19 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 23 a 25 PDV (aire)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 19 a 21 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 27 a 29 PDV (aire)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "70",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 21 a 23 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 29 a 31 PDV (aire)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "170",
+                "coste_pa": "4",
+                "alcance": "5 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Roba 26 a 28 PDV (aire)"
+                ],
+                "efectos_criticos": [
+                    "Roba 36 a 38 PDV (aire)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "177",
+        "nombre": "Flecha Ralentizante",
+        "icono": "icons/177.svg",
+        "descripcion": "Esta flecha ocasiona daños de agua y quita PA a varios enemigos gracias a su importante zona de efecto.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 13 a 15 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 18 a 20 (agua) 2 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 15 a 17 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 21 a 23 (agua) 2 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 17 a 19 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 23 a 25 (agua) 2 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 19 a 21 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 27 a 29 (agua) 2 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "80",
+                "coste_pa": "5",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 21 a 23 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 29 a 31 (agua) 2 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "180",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 21 a 23 (agua) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "PA perdidos por el blanco: 2 2 (C)",
+                    "Daños: 29 a 31 (agua) 2 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "179",
+        "nombre": "Flecha Explosiva",
+        "icono": "icons/179.svg",
+        "descripcion": "Flecha Explosiva ocasiona daños de fuego en zona.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 16 a 20 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 22 a 26 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 17 a 21 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 23 a 27 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 18 a 22 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 25 a 29 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 19 a 23 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 27 a 31 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "90",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 20 a 24 (fuego) 2 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 28 a 32 (fuego) 2 (C)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "190",
+                "coste_pa": "4",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "1/50",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Daños: 20 a 24 (fuego) 3 (C)"
+                ],
+                "efectos_criticos": [
+                    "Daños: 28 a 32 (fuego) 3 (C)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "180",
+        "nombre": "Dominio del Arco",
+        "icono": "icons/180.svg",
+        "descripcion": "Dominio del Arco aumento los daños físicos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0 a 1",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+32 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+42 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_2": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0 a 2",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+34 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+44 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_3": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0 a 3",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+36 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+46 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_4": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0 a 4",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+38 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+48 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_5": {
+                "nivel_requerido": "100",
+                "coste_pa": "2",
+                "alcance": "0 a 5",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+40 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+50 a los daños (2 turnos)"
+                ]
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "2",
+                "alcance": "0 a 6",
+                "probabilidad_critico": "1/30",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "+60 a los daños (2 turnos)"
+                ],
+                "efectos_criticos": [
+                    "+70 a los daños (2 turnos)"
+                ]
+            }
+        }
+    },
+    {
+        "id": "1909",
+        "nombre": "Invocación de Dopeul Ocra",
+        "icono": "icons/1909.svg",
+        "descripcion": "Este hechizo permite invocar un dopeul ocra que ayudará a su amo en los combates.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "200",
+                "coste_pa": "8",
+                "alcance": "1",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Invoca una criatura"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    },
+    {
+        "id": "418",
+        "nombre": "Flecha de Dispersión",
+        "icono": "icons/418.svg",
+        "descripcion": "Hace retroceder a aliados y enemigos varias casillas, incluso cuando están bloqueados por otros aliados o enemigos.",
+        "niveles": {
+            "nivel_1": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1 a 7",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_2": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1 a 8",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_3": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1 a 9",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_4": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1 a 10",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_5": {
+                "nivel_requerido": "0",
+                "coste_pa": "3",
+                "alcance": "1 a 11",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            },
+            "nivel_6": {
+                "nivel_requerido": "100",
+                "coste_pa": "3",
+                "alcance": "1 a 12",
+                "probabilidad_critico": "-",
+                "probabilidad_fallo": "1/100",
+                "efectos": [
+                    "Hace retroceder de 2 casilla(s) 2 (X)"
+                ],
+                "efectos_criticos": []
+            }
+        }
+    }
+]
