@@ -1,35 +1,36 @@
 <template>
   <div class="calculator-container">
     <div class="calculator-header">
-      <div class="header-content">
-        <h2 class="title">Recetas</h2>
-        <span class="title-separator">-</span>
-      </div>
-
-      <div class="search-container">
-        <div class="search-box">
-          <input 
-            v-model="searchQuery" 
-            type="text" 
-            placeholder="Buscar equipamiento..."
-            class="search-input"
-            @focus="showDropdown = true"
-            @blur="handleBlur"
-          />
+      <div class="header-left">
+        <div class="header-content">
+          <h2 class="title">Recetas</h2>
         </div>
-        
-        <div v-if="showDropdown && filteredItems.length > 0" class="dropdown">
-          <div 
-            v-for="item in filteredItems" 
-            :key="item.nombre" 
-            class="dropdown-item"
-            @mousedown="selectItem(item)"
-          >
-            <div class="dropdown-item-image-container" v-if="item.imagen">
-              <img :src="getItemImage(item.imagen)" :alt="item.nombre" class="dropdown-item-image" />
+
+        <div class="search-container">
+          <div class="search-box">
+            <input 
+              v-model="searchQuery" 
+              type="text" 
+              placeholder="Buscar equipamiento..."
+              class="search-input"
+              @focus="showDropdown = true"
+              @blur="handleBlur"
+            />
+          </div>
+          
+          <div v-if="showDropdown && filteredItems.length > 0" class="dropdown">
+            <div 
+              v-for="item in filteredItems" 
+              :key="item.nombre" 
+              class="dropdown-item"
+              @mousedown="selectItem(item)"
+            >
+              <div class="dropdown-item-image-container" v-if="item.imagen">
+                <img :src="getItemImage(item.imagen)" :alt="item.nombre" class="dropdown-item-image" />
+              </div>
+              <span class="item-name">{{ item.nombre }}</span>
+              <span class="item-level">Nv. {{ item.nivel }}</span>
             </div>
-            <span class="item-name">{{ item.nombre }}</span>
-            <span class="item-level">Nv. {{ item.nivel }}</span>
           </div>
         </div>
       </div>
@@ -40,8 +41,19 @@
         <!-- Left Panel: Item Stats -->
         <div class="panel item-details-panel">
           <div class="item-header">
-            <div class="item-image-container" v-if="selectedItem.imagen">
-              <img :src="getItemImage(selectedItem.imagen)" :alt="selectedItem.nombre" class="item-image" />
+            <div class="item-visuals">
+              <div class="item-image-container" v-if="selectedItem.imagen">
+                <img :src="getItemImage(selectedItem.imagen)" :alt="selectedItem.nombre" class="item-image" />
+              </div>
+              <div class="item-quantity-wrapper">
+                <span class="qty-label">x</span>
+                <input 
+                  type="text" 
+                  v-model="itemQuantityDisplay" 
+                  @input="handleItemQuantityInput"
+                  class="item-quantity-input"
+                />
+              </div>
             </div>
             <div class="item-info">
               <h3 class="item-title">{{ selectedItem.nombre }}</h3>
@@ -85,7 +97,7 @@
                   {{ ing.nombre }}
                 </span>
               </div>
-              <div class="col-qty">x{{ ing.cantidad }}</div>
+              <div class="col-qty">x{{ ing.cantidad * itemQuantity }}</div>
               <div class="col-price input-wrapper">
                 <input 
                   type="text" 
@@ -197,6 +209,8 @@ const recetasMap = ref(new Map())
 const searchQuery = ref('')
 const showDropdown = ref(false)
 const selectedItem = ref(null)
+const itemQuantity = ref(1)
+const itemQuantityDisplay = ref('1')
 
 const ingredientPrices = ref({})
 const equipmentMarketPrices = ref({})
@@ -320,6 +334,19 @@ const selectItem = (item) => {
   showDropdown.value = false
 }
 
+const handleItemQuantityInput = (e) => {
+  const rawValue = e.target.value.replace(/\D/g, '')
+  const numericValue = rawValue ? parseInt(rawValue, 10) : 0
+  
+  if (numericValue < 1) {
+    itemQuantity.value = 1
+    itemQuantityDisplay.value = '1'
+  } else {
+    itemQuantity.value = numericValue
+    itemQuantityDisplay.value = rawValue
+  }
+}
+
 const updatePrice = (e, type, id = null) => {
   const input = e.target
   const rawValue = input.value.replace(/\D/g, '')
@@ -374,7 +401,7 @@ const getItemImage = (imgRelPath) => {
 // Calculations
 const calculateIngredientTotal = (ing) => {
   const price = ingredientPrices.value[ing.recursoId] || 0
-  return price * ing.cantidad
+  return price * ing.cantidad * itemQuantity.value
 }
 
 const totalCraftCost = computed(() => {
@@ -425,16 +452,22 @@ const saveMarketPrice = () => {
 }
 
 .calculator-header {
-  margin-bottom: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-bottom: 1.5rem;
   background: rgba(15, 23, 42, 0.7);
   backdrop-filter: blur(16px);
   padding: 1.5rem 2.5rem;
   border-radius: 20px;
   border: 1px solid rgba(14, 165, 233, 0.2);
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
 }
 
 .header-content {
@@ -497,7 +530,7 @@ const saveMarketPrice = () => {
   border-radius: 12px;
   max-height: 400px;
   overflow-y: auto;
-  z-index: 50;
+  z-index: 1000;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -576,7 +609,7 @@ const saveMarketPrice = () => {
 
 .item-header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid rgba(148, 163, 184, 0.1);
   display: flex;
@@ -595,6 +628,39 @@ const saveMarketPrice = () => {
   justify-content: center;
   border: 1px solid rgba(148, 163, 184, 0.1);
   padding: 10px;
+}
+
+.item-visuals {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-quantity-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.qty-label {
+  color: #38bdf8;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.item-quantity-input {
+  width: 50px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
 }
 
 .item-image {
