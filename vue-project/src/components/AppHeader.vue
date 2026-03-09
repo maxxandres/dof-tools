@@ -26,6 +26,13 @@
           <img src="../data/images/spellparcho.svg" alt="Spells" class="nav-icon" />
           Pergaminos de Hechizos
         </button>
+        <button 
+          :class="['nav-btn', { active: currentView === 'recipes' }]"
+          @click="$emit('change-view', 'recipes')"
+        >
+          <img src="../data/images/ressourcesicone (1).svg" alt="Recipes" class="nav-icon" @error="handleImageError" />
+          Recetas
+        </button>
       </div>
     </div>
     <span class="app-header-credits">Created by Glifo</span>
@@ -39,6 +46,11 @@ export default {
     currentView: {
       type: String,
       default: 'xp'
+    }
+  },
+  methods: {
+    handleImageError(e) {
+      e.target.style.display = 'none';
     }
   }
 }

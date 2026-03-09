@@ -1,0 +1,1840 @@
+[
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Dagas",
+    "imagen": "./consumibles/11.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Dagas"
+    ]
+  },
+  {
+    "nombre": "Buñuelo de bamga ***",
+    "imagen": "./consumibles/82.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Plato de fribamga"
+    ]
+  },
+  {
+    "nombre": "Pócima de Envejecimiento",
+    "imagen": "./consumibles/2.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de Ghetto Reid",
+      "Pócima de olvido de oficio: Forjador de Dagas",
+      "Pócima de olvido de oficio: Leñador",
+      "Pócima de olvido de oficio: Forjador de Espadas",
+      "Pócima de olvido de oficio: Escultor de Arcos",
+      "Pócima de olvido de oficio: Forjador de Martillos",
+      "Pócima de olvido de oficio: Zapatero",
+      "Pócima de olvido de oficio: Joyero",
+      "Pócima de olvido de oficio: Escultor de Bastones",
+      "Pócima de olvido de oficio: Escultor de Varitas",
+      "Pócima de olvido de oficio: Forjador de Palas",
+      "Pócima de olvido de oficio: Minero",
+      "Pócima de olvido de oficio: Panadero",
+      "Pócima de olvido de oficio: Alquimista",
+      "Pócima de olvido de oficio: Sastre",
+      "Pócima de olvido de oficio: Campesino",
+      "Pócima de olvido de oficio: Forjador de Hachas",
+      "Pócima de olvido de oficio: Forjamago de Dagas",
+      "Pócima de olvido de oficio: Forjamago de Hachas",
+      "Pócima de olvido de oficio: Forjamago de Martillos",
+      "Pócima de olvido de oficio: Forjamago de Espadas",
+      "Pócima de olvido de oficio: Forjamago de Palas",
+      "Pócima de olvido de oficio: Escultomago de Arcos",
+      "Pócima de olvido de oficio: Escultomago de Varitas",
+      "Pócima de olvido de oficio: Escultomago de Bastones",
+      "Pócima Pahoa Reid",
+      "Pócima Raid Bul",
+      "Sangre del fénix",
+      "Sangre de fénix de gran cosecha",
+      "Pócima de olvido de oficio: Pescador",
+      "Pócima de olvido de oficio: Pescadero",
+      "Pócima de olvido de oficio: Cazador",
+      "Pócima de olvido de oficio: Carnicero",
+      "Piedrecita de Alma Azarosa",
+      "Pócima de olvido recaudador \"Pods\"",
+      "Pócima de olvido recaudador \"Número de recaudadores\"",
+      "Pócima de olvido recaudador \"Prospección\"",
+      "Pócima de olvido de recaudador: Sabiduría",
+      "Pócima de olvido de oficio: Forjador de Escudos",
+      "Pócima de olvido de oficio: Sastremago",
+      "Pócima de olvido de oficio: Joyeromago",
+      "Pócima de olvido de oficio: Zapateromago",
+      "Abrevadero de Carpe",
+      "Abrevadero de Ébano",
+      "Abrevadero de Olmo",
+      "Abrevadero de Bambú Oscuro",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Bambú Dorado",
+      "Abrevadero de Bambú Mágico",
+      "Abrevadero de Madera de Bambuto Sagrado",
+      "Pócima de olvido de oficio: Manitas",
+      "Filtro de longevidad"
+    ]
+  },
+  {
+    "nombre": "Carpa al vapor ****",
+    "imagen": "./consumibles/87.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Anilamar"
+    ]
+  },
+  {
+    "nombre": "Sardina con aceite ***",
+    "imagen": "./consumibles/97.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de mejora de tortuga",
+      "Pócima de mejora de bebé pandawa",
+      "Pócima de mejora de bilby",
+      "Pócima de mejora de bwak",
+      "Pócima de mejora de bworky",
+      "Pócima de mejora de miaumiau",
+      "Pócima de mejora de miaumiau angora",
+      "Pócima de mejora de miaumiau atrigrado",
+      "Pócima de mejora de cocodrail",
+      "Pócima de mejora de ardilla pilla",
+      "Pócima de mejora de feanor",
+      "Pócima de mejora de koalak sanguíneo",
+      "Pócima de mejora de kuakuá",
+      "Pócima de mejora de leopardo",
+      "Pócima de mejora de mini wey",
+      "Pócima de mejora de nomoon",
+      "Pócima de mejora de peki",
+      "Pócima de mejora de pequeño miaumiau blanco",
+      "Pócima de mejora de pequeño wauwau negro",
+      "Pócima de mejora de piotín",
+      "Pócima de mejora de ross",
+      "Pócima de mejora de cuerbokito feo",
+      "Pócima de mejora de wabbit",
+      "Pócima de mejora de walk",
+      "Pócima de mejora de willy el plasta",
+      "Pócima de mejora de cochino jabato",
+      "Pócima de mejora de miniminotot",
+      "Pócima de mejora de pekewabbit hambriento",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de dragún negro",
+      "Pócima de mejora de boluto del padrino",
+      "Pócima de mejora de gelutín",
+      "Pócima de mejora de fab'huritu de Rushu",
+      "Pócima de mejora de vampyrilla",
+      "Pócima de mejora de dragún dorado",
+      "Pócima de mejora de buscador de ogrinas",
+      "Pócima de mejora de araknuza",
+      "Pócima de mejora de miscaludo",
+      "Pócima de mejora de tofucilazo",
+      "Pócima de mejora de otazo",
+      "Pócima de mejora de miaumiau de las nieves",
+      "Pócima de mejora de pekefux atigrado",
+      "Pócima de mejora de Kometa",
+      "Pócima de mejora de Minichuelo",
+      "Pócima de mejora de Flibalak",
+      "Pócima de mejora de Renito",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Pandiablillo",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Minipoth",
+      "Pócima de mejora de Palador",
+      "Pócima de mejora de Glotón",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Castillo de arena Patrick",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Karne",
+      "Pócima de mejora de Crum acuoso",
+      "Pócima de mejora de Crum volátil",
+      "Pócima de mejora de Crum ígneo",
+      "Pócima de mejora de Crum vegetal"
+    ]
+  },
+  {
+    "nombre": "Sardina con aceite ****",
+    "imagen": "./consumibles/95.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Kralamansion"
+    ]
+  },
+  {
+    "nombre": "Pócima de Recuerdo",
+    "imagen": "./consumibles/17.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Prisma de conquista"
+    ]
+  },
+  {
+    "nombre": "Lubina asada ****",
+    "imagen": "./consumibles/99.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Anilamar"
+    ]
+  },
+  {
+    "nombre": "Buñuelo de bamga ****",
+    "imagen": "./consumibles/100.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Velo de tinta"
+    ]
+  },
+  {
+    "nombre": "Runa del Minero",
+    "imagen": "./consumibles/6.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Gobio troceado ****",
+    "imagen": "./consumibles/101.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Kralanillo"
+    ]
+  },
+  {
+    "nombre": "Runa del Campesino",
+    "imagen": "./consumibles/7.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Runa del Alquimista",
+    "imagen": "./consumibles/3.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Runa del Joyero",
+    "imagen": "./consumibles/10.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista"
+    ]
+  },
+  {
+    "nombre": "Runa del Carnicero",
+    "imagen": "./consumibles/9.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de artesano"
+    ]
+  },
+  {
+    "nombre": "Runa del Panadero",
+    "imagen": "./consumibles/1.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de artesano"
+    ]
+  },
+  {
+    "nombre": "Runa del Leñador",
+    "imagen": "./consumibles/21.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Runa del Cazador",
+    "imagen": "./consumibles/8.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Lucio relleno ****",
+    "imagen": "./consumibles/134.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Kralanillo"
+    ]
+  },
+  {
+    "nombre": "Runa del Zapatero",
+    "imagen": "./consumibles/11(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Espadas",
+    "imagen": "./consumibles/12.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Escudos",
+    "imagen": "./consumibles/25.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Dagas",
+    "imagen": "./consumibles/13.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Hachas",
+    "imagen": "./consumibles/14.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Martillos",
+    "imagen": "./consumibles/15.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Leñador",
+    "imagen": "./consumibles/6(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Leñador"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjador de Palas",
+    "imagen": "./consumibles/16.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de herrero"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Espadas",
+    "imagen": "./consumibles/12(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Espadas"
+    ]
+  },
+  {
+    "nombre": "Runa del Pescadero",
+    "imagen": "./consumibles/5.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de artesano"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultor de Arcos",
+    "imagen": "./consumibles/8(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultor de Arcos"
+    ]
+  },
+  {
+    "nombre": "Runa del Pescador",
+    "imagen": "./consumibles/4.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de recolector"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Martillos",
+    "imagen": "./consumibles/22.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Martillos"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultor de Arcos",
+    "imagen": "./consumibles/17(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultor"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Zapatero",
+    "imagen": "./consumibles/7(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Zapatero"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultor de Varitas",
+    "imagen": "./consumibles/18.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultor"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Joyero",
+    "imagen": "./consumibles/15(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Joyero"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultor de Bastones",
+    "imagen": "./consumibles/19.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultor"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultor de Bastones",
+    "imagen": "./consumibles/10(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultor de Bastones"
+    ]
+  },
+  {
+    "nombre": "Runa del Sastre",
+    "imagen": "./consumibles/2(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultor de Varitas",
+    "imagen": "./consumibles/9(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultor de Varitas"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjamago de Espadas",
+    "imagen": "./consumibles/20.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de forjamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Palas",
+    "imagen": "./consumibles/13(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Palas"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjamago de Dagas",
+    "imagen": "./consumibles/22(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de forjamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Minero",
+    "imagen": "./consumibles/14(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Minero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjamago de Martillos",
+    "imagen": "./consumibles/23.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de forjamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Panadero",
+    "imagen": "./consumibles/24.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Panadero"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjamago de Hachas",
+    "imagen": "./consumibles/24(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de forjamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Alquimista",
+    "imagen": "./consumibles/5(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Alquimista"
+    ]
+  },
+  {
+    "nombre": "Runa del Forjamago de Palas",
+    "imagen": "./consumibles/32.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de forjamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Sastre",
+    "imagen": "./consumibles/4(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Sastre"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultomago de Arcos",
+    "imagen": "./consumibles/26.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultomago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Campesino",
+    "imagen": "./consumibles/16(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Campesino"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultomago de Varitas",
+    "imagen": "./consumibles/28.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultomago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Hachas",
+    "imagen": "./consumibles/17(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Hachas"
+    ]
+  },
+  {
+    "nombre": "Runa del Escultomago de Bastones",
+    "imagen": "./consumibles/27.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de escultomago"
+    ]
+  },
+  {
+    "nombre": "Runa del Zapateromago",
+    "imagen": "./consumibles/29.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista mágico"
+    ]
+  },
+  {
+    "nombre": "Kralamar a la brasa ****",
+    "imagen": "./consumibles/91.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Velo de tinta",
+      "Kralamansion"
+    ]
+  },
+  {
+    "nombre": "Runa de engastamago",
+    "imagen": "./consumibles/30.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista mágico"
+    ]
+  },
+  {
+    "nombre": "Runa del Sastremago",
+    "imagen": "./consumibles/31.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de adornista mágico"
+    ]
+  },
+  {
+    "nombre": "Pequeña pócima de Curación de Masas",
+    "imagen": "./consumibles/58.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de Curación de Masas"
+    ]
+  },
+  {
+    "nombre": "Pócima de Agresión pequeña",
+    "imagen": "./consumibles/32(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de Agresión mediana"
+    ]
+  },
+  {
+    "nombre": "Pócima de Agresión mediana",
+    "imagen": "./consumibles/33.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de Agresión grande"
+    ]
+  },
+  {
+    "nombre": "Crujirroca",
+    "imagen": "./consumibles/18(1).svg",
+    "drops": [
+      {
+        "monstruo": "Crujibola",
+        "porcentaje": "0%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Máscara de crujidor de Haluín"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Sastremago",
+    "imagen": "./consumibles/4(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Sastremago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Joyeromago",
+    "imagen": "./consumibles/15(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de engastamago"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Zapateromago",
+    "imagen": "./consumibles/7(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Zapateromago"
+    ]
+  },
+  {
+    "nombre": "Runa de recolector",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de herrero",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de escultor",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de forjamago",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de escultomago",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de adornista",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de adornista mágico",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Runa de artesano",
+    "imagen": "./consumibles/gfx_not_found.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de labor"
+    ]
+  },
+  {
+    "nombre": "Cerveza de Amakna",
+    "imagen": "./consumibles/4(2).svg",
+    "drops": [
+      {
+        "monstruo": "Fantasma Aperitubo",
+        "porcentaje": "14%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "El Etirujo"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjamago de Dagas",
+    "imagen": "./consumibles/11.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjamago de Dagas"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjamago de Hachas",
+    "imagen": "./consumibles/17(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjamago de Hachas"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjamago de Martillos",
+    "imagen": "./consumibles/22.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjamago de Martillos"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjamago de Espadas",
+    "imagen": "./consumibles/12(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjamago de Espadas"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjamago de Palas",
+    "imagen": "./consumibles/13(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjamago de Palas"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultomago de Arcos",
+    "imagen": "./consumibles/8(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultomago de Arcos"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultomago de Varitas",
+    "imagen": "./consumibles/9(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultomago de Varitas"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Escultomago de Bastones",
+    "imagen": "./consumibles/10(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Escultomago de Bastones"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Pescador",
+    "imagen": "./consumibles/23(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Pescador"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Pescadero",
+    "imagen": "./consumibles/18(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Pescadero"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Cazador",
+    "imagen": "./consumibles/19(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Cazador"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Carnicero",
+    "imagen": "./consumibles/20(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Carnicero"
+    ]
+  },
+  {
+    "nombre": "Un frasco de Pandarium Tremens",
+    "imagen": "./consumibles/9(2).svg",
+    "drops": [
+      {
+        "monstruo": "Teilemrak",
+        "porcentaje": "1%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Sangre de roca"
+    ]
+  },
+  {
+    "nombre": "Libro del Bwork Mago",
+    "imagen": "./consumibles/130.svg",
+    "drops": [
+      {
+        "monstruo": "Bwork Mago",
+        "porcentaje": "1%",
+        "pp": 300
+      }
+    ],
+    "seUsaEn": [
+      "Bastón del Bwork Mago"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Verde",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Verde"
+    ]
+  },
+  {
+    "nombre": "Pócima de Mini Cuidados",
+    "imagen": "./consumibles/16(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Abrevadero de Roble",
+      "Abrevadero de Arce",
+      "Abrevadero de Carpe",
+      "Abrevadero de Cerezo Silvestre",
+      "Abrevadero de Tejo",
+      "Abrevadero de Ébano",
+      "Abrevadero de Olmo",
+      "Abrevadero de Bombú",
+      "Abrevadero de Olivioleta",
+      "Abrevadero de Bambú",
+      "Abrevadero de Bambú Oscuro",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Madera de Tronkónido",
+      "Abrevadero de Bambú Dorado",
+      "Abrevadero de Bambú Mágico",
+      "Abrevadero de Madera de Bambuto",
+      "Abrevadero de Madera de Bambuto Sagrado"
+    ]
+  },
+  {
+    "nombre": "Pócima de Mini Cuidados Superior",
+    "imagen": "./consumibles/38.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Sangre del fénix",
+      "Sangre de fénix de gran cosecha",
+      "Abrevadero de Arce",
+      "Abrevadero de Carpe",
+      "Abrevadero de Cerezo Silvestre",
+      "Abrevadero de Tejo",
+      "Abrevadero de Ébano",
+      "Abrevadero de Olmo",
+      "Abrevadero de Bambú",
+      "Abrevadero de Bambú Oscuro",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Bambú Dorado",
+      "Abrevadero de Bambú Mágico",
+      "Abrevadero de Madera de Bambuto",
+      "Abrevadero de Madera de Bambuto Sagrado"
+    ]
+  },
+  {
+    "nombre": "Pócima de camuflaje inmóvil",
+    "imagen": "./consumibles/67.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Poción de camuflaje total"
+    ]
+  },
+  {
+    "nombre": "Bolitas de Insecto **",
+    "imagen": "./consumibles/110.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de mejora de tortuga",
+      "Pócima de mejora de bebé pandawa",
+      "Pócima de mejora de bilby",
+      "Pócima de mejora de bwak",
+      "Pócima de mejora de bworky",
+      "Pócima de mejora de miaumiau",
+      "Pócima de mejora de miaumiau angora",
+      "Pócima de mejora de miaumiau atrigrado",
+      "Pócima de mejora de cocodrail",
+      "Pócima de mejora de ardilla pilla",
+      "Pócima de mejora de feanor",
+      "Pócima de mejora de koalak sanguíneo",
+      "Pócima de mejora de kuakuá",
+      "Pócima de mejora de leopardo",
+      "Pócima de mejora de mini wey",
+      "Pócima de mejora de nomoon",
+      "Pócima de mejora de peki",
+      "Pócima de mejora de pequeño miaumiau blanco",
+      "Pócima de mejora de pequeño wauwau negro",
+      "Pócima de mejora de piotín",
+      "Pócima de mejora de ross",
+      "Pócima de mejora de cuerbokito feo",
+      "Pócima de mejora de wabbit",
+      "Pócima de mejora de walk",
+      "Pócima de mejora de willy el plasta",
+      "Pócima de mejora de cochino jabato",
+      "Pócima de mejora de miniminotot",
+      "Pócima de mejora de pekewabbit hambriento",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de dragún negro",
+      "Pócima de mejora de boluto del padrino",
+      "Pócima de mejora de gelutín",
+      "Pócima de mejora de fab'huritu de Rushu",
+      "Pócima de mejora de vampyrilla",
+      "Pócima de mejora de dragún dorado",
+      "Pócima de mejora de buscador de ogrinas",
+      "Pócima de mejora de araknuza",
+      "Pócima de mejora de miscaludo",
+      "Pócima de mejora de tofucilazo",
+      "Pócima de mejora de otazo",
+      "Pócima de mejora de miaumiau de las nieves",
+      "Pócima de mejora de pekefux atigrado",
+      "Pócima de mejora de Kometa",
+      "Pócima de mejora de Minichuelo",
+      "Pócima de mejora de Flibalak",
+      "Pócima de mejora de Renito",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Pandiablillo",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Minipoth",
+      "Pócima de mejora de Palador",
+      "Pócima de mejora de Glotón",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Castillo de arena Patrick",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Karne",
+      "Pócima de mejora de Crum acuoso",
+      "Pócima de mejora de Crum volátil",
+      "Pócima de mejora de Crum ígneo",
+      "Pócima de mejora de Crum vegetal"
+    ]
+  },
+  {
+    "nombre": "Abrákllota",
+    "imagen": "./consumibles/15(2).svg",
+    "drops": [
+      {
+        "monstruo": "Abráknido",
+        "porcentaje": "1%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Máscara de abráknido de Haluín"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Azul",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Azul"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Manitas",
+    "imagen": "./consumibles/21(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de Manitas"
+    ]
+  },
+  {
+    "nombre": "Pócima de Curación de Masas",
+    "imagen": "./consumibles/71.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran pócima de Curación de Masas"
+    ]
+  },
+  {
+    "nombre": "Gran pócima de Curación de Masas",
+    "imagen": "./consumibles/69.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Increíble pócima de curación de masas"
+    ]
+  },
+  {
+    "nombre": "Ensalada de Hocico ***",
+    "imagen": "./consumibles/129.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Ensalada misela"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Amarilla",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Amarilla"
+    ]
+  },
+  {
+    "nombre": "Runa de Manitas",
+    "imagen": "./consumibles/12.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de artesano"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Roja",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Roja"
+    ]
+  },
+  {
+    "nombre": "Cerveza de Bwork",
+    "imagen": "./consumibles/1(1).svg",
+    "drops": [
+      {
+        "monstruo": "Bwork Mago",
+        "porcentaje": "58%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Llave de la Mazmorra del Bworker"
+    ]
+  },
+  {
+    "nombre": "Elixir pandawa",
+    "imagen": "./consumibles/153.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Verdely",
+    "imagen": "./consumibles/21(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Multygely",
+      "Gelosombrero",
+      "Gelatibotas",
+      "Gelamú",
+      "La Bostabola",
+      "Enchalada de pescado"
+    ]
+  },
+  {
+    "nombre": "Elixir sacrógrito",
+    "imagen": "./consumibles/154.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Rogely",
+    "imagen": "./consumibles/20(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Multygely",
+      "Gelatibotas",
+      "Gelaturón",
+      "Gelamú",
+      "La Bostabola"
+    ]
+  },
+  {
+    "nombre": "Elixir aniripsa",
+    "imagen": "./consumibles/155.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Blugely",
+    "imagen": "./consumibles/22(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Multygely",
+      "Gelocapa",
+      "Gelosombrero",
+      "Gelatibotas",
+      "Gelaturón",
+      "Gelamú",
+      "La Bostabola"
+    ]
+  },
+  {
+    "nombre": "Elixir sadida",
+    "imagen": "./consumibles/156.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Multygely",
+    "imagen": "./consumibles/26(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gelamú",
+      "La Bostabola"
+    ]
+  },
+  {
+    "nombre": "Pócima de Firma",
+    "imagen": "./consumibles/2.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa de Firma",
+      "Filtro de longevidad"
+    ]
+  },
+  {
+    "nombre": "Elixir ocra",
+    "imagen": "./consumibles/157.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Barra de cangrejo ***",
+    "imagen": "./consumibles/75.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Enchalada de pescado"
+    ]
+  },
+  {
+    "nombre": "Elixir yopuka",
+    "imagen": "./consumibles/158.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Elixir zurcarák",
+    "imagen": "./consumibles/159.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Elixir xelor",
+    "imagen": "./consumibles/160.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Elixir feca",
+    "imagen": "./consumibles/161.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección opalescente"
+    ]
+  },
+  {
+    "nombre": "Elixir anutrof",
+    "imagen": "./consumibles/162.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Elixir osamodas",
+    "imagen": "./consumibles/163.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Elixir sram",
+    "imagen": "./consumibles/164.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de protección tenebrosa"
+    ]
+  },
+  {
+    "nombre": "Pirulí de cebada",
+    "imagen": "./consumibles/128.svg",
+    "drops": [],
+    "seUsaEn": [
+      "La Bostabola"
+    ]
+  },
+  {
+    "nombre": "Pócima de olvido de oficio: Forjador de Escudos",
+    "imagen": "./consumibles/3(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Runa del Forjador de Escudos"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Roja",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial roja"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Verde",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial verde"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Azul",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial azul"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Amarilla",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial amarilla"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Roja Giratoria",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Roja Giratoria"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Verde Giratoria",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Verde Giratoria"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Azul Giratoria",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Azul Giratoria"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Amarilla Giratoria",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Amarilla Giratoria"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Verde Giratoria",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial verde giratoria"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Azul Giratoria",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial azul giratoria"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Amarilla Giratoria",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial amarilla giratoria"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Roja Fuentesca",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Roja Fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Verde Fuentesca",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Verde Fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Azul Fuentesca",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Azul Fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Amarilla Fuentesca",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Roja Fuentesca",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial roja fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Verde Fuentesca",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial verdosa fuente"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Azul Fuentesca",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial azul fuentesca"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Fuentesca",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial amarilla fuentesca"
+    ]
+  },
+  {
+    "nombre": "Frasco de cuidados",
+    "imagen": "./consumibles/3(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Abrevadero de Carpe",
+      "Abrevadero de Cerezo Silvestre",
+      "Abrevadero de Tejo",
+      "Abrevadero de Ébano",
+      "Abrevadero de Olmo",
+      "Abrevadero de Bambú Oscuro",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Bambú Dorado",
+      "Abrevadero de Bambú Mágico",
+      "Abrevadero de Madera de Bambuto Sagrado"
+    ]
+  },
+  {
+    "nombre": "Pócima de Ghetto Reid",
+    "imagen": "./consumibles/18(3).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Sangre del fénix",
+      "Sangre de fénix de gran cosecha",
+      "Pesebre de fresno",
+      "Pesebre de roble",
+      "Pesebre de tejo",
+      "Pesebre de ébano",
+      "Pesebre de olmo",
+      "Pesebre de arce",
+      "Pesebre de carpe",
+      "Pesebre de castaño",
+      "Pesebre de nogal",
+      "Pesebre de cerezo silvestre",
+      "Pesebre de bombú",
+      "Pesebre de olivioleta",
+      "Pesebre de bambú",
+      "Pesebre de bambú oscuro",
+      "Pesebre de bambú sagrado",
+      "Pesebre de madera ancestral",
+      "Pesebre de madera embrujada",
+      "Pesebre de bambú dorado",
+      "Pesebre de bambú mágico",
+      "Pesebre de madera de bambuto",
+      "Pesebre de madera de bambuto sagrado",
+      "Pesebre de madera de kokoko",
+      "Pesebre de madera de tronkónido",
+      "Piedra macilladera azul impura",
+      "Piedra macilladera amarilla impura",
+      "Piedra macilladera verde impura"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Roja Chispitas",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Roja Chispitas"
+    ]
+  },
+  {
+    "nombre": "Tinte mágico rojizo",
+    "imagen": "./consumibles/63.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Capa del vampiro",
+      "Capa Yespada",
+      "Capa de Buena Esperanza",
+      "La Samulay",
+      "Capa Sanguínea",
+      "Capa Gada",
+      "Escudo del Capitán Amakna",
+      "Tutú rosa",
+      "Tinte naranja sanguina"
+    ]
+  },
+  {
+    "nombre": "Tinte mágico verdoso",
+    "imagen": "./consumibles/64.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Capa de Bowis",
+      "Capa Uleto",
+      "Capa Bilidad",
+      "Moon Boots",
+      "La Pastosa",
+      "Capa Gada"
+    ]
+  },
+  {
+    "nombre": "Tinte mágico azulado",
+    "imagen": "./consumibles/65.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Capa Sulacorp",
+      "Capa Májyka",
+      "Capa bontariana",
+      "La Harapa"
+    ]
+  },
+  {
+    "nombre": "Tinte mágico naranja",
+    "imagen": "./consumibles/66.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Capa Elini",
+      "Capa Gorrogoma",
+      "Tinte naranja sanguina",
+      "Caña Peskamas"
+    ]
+  },
+  {
+    "nombre": "Tinte mágico oscuro",
+    "imagen": "./consumibles/67(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Amuleto del Pirata",
+      "Pequeña Capa Oscura",
+      "Capa Oscura",
+      "Gran Capa Oscura",
+      "Capa del Mediulubo Loco",
+      "Capa del tofu loco",
+      "Capa Brakmariana",
+      "Botas de Jame",
+      "La Harapa",
+      "Botas Animales Oscuras",
+      "Cuerbotas",
+      "Cuerbokapa Mastralis"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Verde Chispitas",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Verde Chispitas"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Azul Chispitas",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Azul Chispitas"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Amarilla Chispitas",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Amarilla Chispitas"
+    ]
+  },
+  {
+    "nombre": "Huevo de larva dorado",
+    "imagen": "./consumibles/715.svg",
+    "drops": [
+      {
+        "monstruo": "Larva Azul",
+        "porcentaje": "1%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Larvabotas"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Roja Chispitas",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial roja chispitas"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Verde Chispitas",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial verde chispitas"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Azul Chispitas",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial azul chispitas"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Amarilla Chispitas",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial amarilla chispitas"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Roja Volteadora",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Roja Volteadora"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Verde Volteadora",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Verde Volteadora"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Azul Volteadora",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Azul Volteadora"
+    ]
+  },
+  {
+    "nombre": "Hadita Artificial Amarilla Volteadora",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Hada Artificial Amarilla Volteadora"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Roja Volteadora",
+    "imagen": "./consumibles/28(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial roja volteadora"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Verde Volteadora",
+    "imagen": "./consumibles/26(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial verde volteadora"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Azul Volteadora",
+    "imagen": "./consumibles/29(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial azul volteadora"
+    ]
+  },
+  {
+    "nombre": "Hada Artificial Amarilla Volteadora",
+    "imagen": "./consumibles/27(1).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Gran hada artificial amarilla volteadora"
+    ]
+  },
+  {
+    "nombre": "Bizcochito",
+    "imagen": "./consumibles/8(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Empanada de carne de jalató",
+      "Miaullleta"
+    ]
+  },
+  {
+    "nombre": "Pergamino de Marfil",
+    "imagen": "./consumibles/25(1).svg",
+    "drops": [
+      {
+        "monstruo": "Bworka",
+        "porcentaje": "24%",
+        "pp": 300
+      }
+    ],
+    "seUsaEn": [
+      "Pócima de olvido de recaudador: Sabiduría"
+    ]
+  },
+  {
+    "nombre": "Pócima Raid Bul",
+    "imagen": "./consumibles/141.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Sangre de fénix de gran cosecha"
+    ]
+  },
+  {
+    "nombre": "Pócima Dantegulesca",
+    "imagen": "./consumibles/139.svg",
+    "drops": [
+      {
+        "monstruo": "Dark Vlad",
+        "porcentaje": "10%",
+        "pp": 400
+      }
+    ],
+    "seUsaEn": [
+      "Dantgul",
+      "Espada de Dark Vlad"
+    ]
+  },
+  {
+    "nombre": "Pan de cereales",
+    "imagen": "./consumibles/6(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Bio Varita"
+    ]
+  },
+  {
+    "nombre": "Pócima Agua de Hada",
+    "imagen": "./consumibles/41.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Sangre del fénix",
+      "Sangre de fénix de gran cosecha",
+      "Pequeña pócima de Curación de Masas",
+      "Abrevadero de Olmo",
+      "Abrevadero de Bambú Oscuro",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Bambú Dorado",
+      "Abrevadero de Madera de Bambuto Sagrado"
+    ]
+  },
+  {
+    "nombre": "Sangre de urikornio",
+    "imagen": "./consumibles/40.svg",
+    "drops": [],
+    "seUsaEn": [
+      "Botas del Invocador Aprendiz",
+      "Abrevadero de Bambú Sagrado",
+      "Abrevadero de Madera Ancestral",
+      "Abrevadero de Madera Embrujada",
+      "Abrevadero de Bambú Dorado",
+      "Filtro de longevidad"
+    ]
+  },
+  {
+    "nombre": "Pan Hasonik",
+    "imagen": "./consumibles/13(2).svg",
+    "drops": [],
+    "seUsaEn": [
+      "Pócima de mejora de tortuga",
+      "Pócima de mejora de bebé pandawa",
+      "Pócima de mejora de bilby",
+      "Pócima de mejora de bwak",
+      "Pócima de mejora de bworky",
+      "Pócima de mejora de miaumiau",
+      "Pócima de mejora de miaumiau angora",
+      "Pócima de mejora de miaumiau atrigrado",
+      "Pócima de mejora de cocodrail",
+      "Pócima de mejora de ardilla pilla",
+      "Pócima de mejora de feanor",
+      "Pócima de mejora de koalak sanguíneo",
+      "Pócima de mejora de kuakuá",
+      "Pócima de mejora de leopardo",
+      "Pócima de mejora de mini wey",
+      "Pócima de mejora de nomoon",
+      "Pócima de mejora de peki",
+      "Pócima de mejora de pequeño miaumiau blanco",
+      "Pócima de mejora de pequeño wauwau negro",
+      "Pócima de mejora de piotín",
+      "Pócima de mejora de ross",
+      "Pócima de mejora de cuerbokito feo",
+      "Pócima de mejora de wabbit",
+      "Pócima de mejora de walk",
+      "Pócima de mejora de willy el plasta",
+      "Pócima de mejora de cochino jabato",
+      "Pócima de mejora de miniminotot",
+      "Pócima de mejora de pekewabbit hambriento",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de dragún negro",
+      "Pócima de mejora de boluto del padrino",
+      "Pócima de mejora de gelutín",
+      "Pócima de mejora de fab'huritu de Rushu",
+      "Pócima de mejora de vampyrilla",
+      "Pócima de mejora de dragún dorado",
+      "Pócima de mejora de buscador de ogrinas",
+      "Pócima de mejora de araknuza",
+      "Pócima de mejora de miscaludo",
+      "Pócima de mejora de tofucilazo",
+      "Pócima de mejora de otazo",
+      "Pócima de mejora de miaumiau de las nieves",
+      "Pócima de mejora de pekefux atigrado",
+      "Pócima de mejora de Kometa",
+      "Pócima de mejora de Minichuelo",
+      "Pócima de mejora de Flibalak",
+      "Pócima de mejora de Renito",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Pandiablillo",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Minipoth",
+      "Pócima de mejora de Palador",
+      "Pócima de mejora de Glotón",
+      "Pócima de mejora de murciego",
+      "Pócima de mejora de Pekebilax",
+      "Pócima de mejora de Castillo de arena Patrick",
+      "Pócima de mejora de Polaroso",
+      "Pócima de mejora de Karne",
+      "Pócima de mejora de Crum acuoso",
+      "Pócima de mejora de Crum volátil",
+      "Pócima de mejora de Crum ígneo",
+      "Pócima de mejora de Crum vegetal"
+    ]
+  },
+  {
+    "nombre": "Residuo de hechizo temporal",
+    "imagen": "./consumibles/720.svg",
+    "drops": [
+      {
+        "monstruo": "Demonio hechicero",
+        "porcentaje": "0%",
+        "pp": 100
+      }
+    ],
+    "seUsaEn": [
+      "Capa Ilyzala",
+      "Ilyzanillo"
+    ]
+  }
+]

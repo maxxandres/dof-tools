@@ -476,6 +476,7 @@ const getEffectIcon = (effectText) => {
   border-radius: 20px;
   padding: 2.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  min-height: auto;
 }
 
 .header-row {
@@ -662,8 +663,7 @@ const getEffectIcon = (effectText) => {
   border: 2px solid #cdba9f;
   padding: 1rem;
   border-radius: 8px;
-  height: 600px;
-  overflow-y: auto;
+  height: auto;
 }
 
 .pane-title {
