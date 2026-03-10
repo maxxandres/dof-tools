@@ -414,11 +414,13 @@ const totalCraftCost = computed(() => {
 const currentMarketPrice = computed({
   get() {
     if (!selectedItem.value) return 0
-    return equipmentMarketPrices.value[selectedItem.value.imagen] || 0
+    const unitPrice = equipmentMarketPrices.value[selectedItem.value.imagen] || 0
+    return unitPrice * itemQuantity.value
   },
   set(val) {
     if (!selectedItem.value) return
-    equipmentMarketPrices.value[selectedItem.value.imagen] = val || 0
+    // Store as unit price
+    equipmentMarketPrices.value[selectedItem.value.imagen] = Math.floor(val / itemQuantity.value)
     saveMarketPrice()
   }
 })
