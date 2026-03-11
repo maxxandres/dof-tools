@@ -334,7 +334,8 @@
     {
         "nombre": "Amuleto del Jefe Bwork",
         "prix": 0,
-        "id": 51
+        "id": 51,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Amuleto del Kam Asutra",
@@ -1006,7 +1007,8 @@
     {
         "nombre": "Botas del Jefe Bwork",
         "prix": 0,
-        "id": 193
+        "id": 193,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Botas del Crujidor",
@@ -1236,7 +1238,8 @@
     {
         "nombre": "Brazal del Jefe Bwork",
         "prix": 0,
-        "id": 217
+        "id": 217,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Bractea de la Marguerrita",
@@ -1518,7 +1521,8 @@
     {
         "nombre": "Capa del Jefe Bwork",
         "prix": 0,
-        "id": 244
+        "id": 244,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Capa del Dragocerdo",
@@ -1838,7 +1842,8 @@
     {
         "nombre": "Casco del Jefe Bwork",
         "prix": 0,
-        "id": 274
+        "id": 274,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Cinturón Bontariano",
@@ -3350,17 +3355,20 @@
     {
         "nombre": "Dofus Esmeralda",
         "prix": 0,
-        "id": 431
+        "id": 431,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Dofus Púrpura",
         "prix": 0,
-        "id": 432
+        "id": 432,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Dofus Turquesa",
         "prix": 0,
-        "id": 433
+        "id": 433,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Dragosombrero blanco",
@@ -6141,7 +6149,8 @@
     {
         "nombre": "Máscara Kaníbola",
         "prix": 0,
-        "id": 712
+        "id": 712,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Máscara de la Rata Negra",
@@ -9756,7 +9765,8 @@
     {
         "nombre": "Calzoncillo del Jefe Bwork",
         "prix": 0,
-        "id": 1120
+        "id": 1120,
+        "imagen": "/data/icons/notfound.png"
     },
     {
         "nombre": "Calzoncillo ajustado de cuero del Vampiro",
@@ -22114,7 +22124,7 @@
     },
     {
         "nombre": "Runa de recolector",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22124,7 +22134,7 @@
     },
     {
         "nombre": "Runa de herrero",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22134,7 +22144,7 @@
     },
     {
         "nombre": "Runa de escultor",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22144,7 +22154,7 @@
     },
     {
         "nombre": "Runa de forjamago",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22154,7 +22164,7 @@
     },
     {
         "nombre": "Runa de escultomago",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22164,7 +22174,7 @@
     },
     {
         "nombre": "Runa de adornista",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22174,7 +22184,7 @@
     },
     {
         "nombre": "Runa de adornista mágico",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -22184,7 +22194,7 @@
     },
     {
         "nombre": "Runa de artesano",
-        "imagen": "./consumibles/gfx_not_found.svg",
+        "imagen": "/data/icons/notfound.png",
         "drops": [],
         "seUsaEn": [
             "Runa de labor"
@@ -23278,5 +23288,2003 @@
         ],
         "id": 1737,
         "prix": 0
+    },
+    {
+        "nombre": "Sal",
+        "prix": 0,
+        "id": 1738,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [],
+        "seUsaEn": [
+            "Varita Depan",
+            "Palita de Wukis",
+            "Pala de Wukis",
+            "Gran Pala de Wukis",
+            "Imponente pala de Wukis"
+        ]
+    },
+    {
+        "nombre": "Harina de trigo",
+        "prix": 0,
+        "id": 1739,
+        "imagen": "./recursos/251.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Varita Depan",
+            "Pan de Amakna",
+            "Pan con granos de adormidera",
+            "Pan de granos de lino",
+            "Pan de avellanas",
+            "Pan de cereales",
+            "Pan de nueces",
+            "Pan de trigo integral",
+            "Pan de los Campos",
+            "Pan Hasonik",
+            "Don Bollo"
+        ]
+    },
+    {
+        "nombre": "Levadura del panadero",
+        "prix": 0,
+        "id": 1740,
+        "imagen": "./recursos/137.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Varita Depan",
+            "Pan con granos de adormidera",
+            "Pan con semillas de sésamo",
+            "Pan de granos de lino",
+            "Pan de avellanas",
+            "Pan de cereales",
+            "Pan de nueces",
+            "Pan de trigo integral",
+            "Pan de copos de avena",
+            "Pan de centeno",
+            "Pan de los Campos",
+            "Pan dorado",
+            "Bizcochito",
+            "Bizcochito mágico",
+            "Pan de centeno resistente",
+            "Pan de copos de avena aurífera",
+            "Pan Bumbo",
+            "Pan Hasonik",
+            "Hogazas querosas",
+            "Pan trémulo"
+        ]
+    },
+    {
+        "nombre": "Orbe fantasmístico",
+        "prix": 0,
+        "id": 1741,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Jack Olín Tierna∞",
+                "porcentaje": "50%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Máscara de jalató de Haluín",
+            "Máscara de tofu de Haluín",
+            "Máscara de jabalí de Haluín",
+            "Máscara de crujidor de Haluín",
+            "Máscara de abráknido de Haluín",
+            "Máscara de chafer infante de Haluín",
+            "Máscara de milubo de Haluín"
+        ]
+    },
+    {
+        "nombre": "Pócima de Llovizna",
+        "prix": 0,
+        "id": 1742,
+        "imagen": "./recursos/22.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Arco Hólico",
+            "Pala Patarta"
+        ]
+    },
+    {
+        "nombre": "Pócima de Corriente de Aire",
+        "prix": 0,
+        "id": 1743,
+        "imagen": "./recursos/25.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Varidaga"
+        ]
+    },
+    {
+        "nombre": "Pócima de Sacudida",
+        "prix": 0,
+        "id": 1744,
+        "imagen": "./recursos/28.svg",
+        "drops": [],
+        "seUsaEn": [
+            "El Skrunnchhh",
+            "Dragonalgas de cuero de jalatín blanco",
+            "Dragonalgas de cuero de jalatín negro",
+            "Dragonalgas de cuero de jalató",
+            "Dragonalgas de cuero de jefe de guerra jalató",
+            "Dragonalgas de cuero de Jalató Real",
+            "Dragonalgas de cuero de jabalí",
+            "Dragonalgas de cuero de dragocerdo",
+            "Dragonalgas de cuero de cochinillo",
+            "Dragonalgas de cuero violeta de bwork",
+            "Dragonalgas de cuero de Puerkazo",
+            "Dragonalgas de cuero negro",
+            "Dragonalgas de cuero de jabalí de las llanuras",
+            "Dragonalgas de cuero de Minotauroro"
+        ]
+    },
+    {
+        "nombre": "Piedra de Afilar",
+        "prix": 0,
+        "id": 1745,
+        "imagen": "./recursos/127.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Arco Diquea, versión rebajas",
+            "Arco Diquea, versión estándar",
+            "Arco Diquea, versión especial",
+            "Arco Diquea, nueva versión",
+            "Cortadora de palabra",
+            "Martillo Xelorillo"
+        ]
+    },
+    {
+        "nombre": "Polvo de resurrección",
+        "prix": 0,
+        "id": 1746,
+        "imagen": "./recursos/51.svg",
+        "drops": [
+            {
+                "monstruo": "Fantasma Dragún∞",
+                "porcentaje": "100%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Garritas"
+        ]
+    },
+    {
+        "nombre": "Piel de koalak inmaduro",
+        "prix": 0,
+        "id": 1747,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Koalak Inmaduro∞",
+                "porcentaje": "1.4%",
+                "pp": 500
+            }
+        ],
+        "seUsaEn": [
+            "Amuleto del koalak",
+            "Botas del koalak",
+            "Capa del Koalak",
+            "Cinturón del koalak",
+            "Zuecos de Shika"
+        ]
+    },
+    {
+        "nombre": "Gelatina descongelada",
+        "prix": 0,
+        "id": 1748,
+        "imagen": "./recursos/736.svg",
+        "drops": [
+            {
+                "monstruo": "Gelatinodado∞",
+                "porcentaje": "5.4%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco Hadia"
+        ]
+    },
+    {
+        "nombre": "Artefacto pandawushu de fuego fantasmagórico sublime",
+        "prix": 0,
+        "id": 1749,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [],
+        "seUsaEn": [
+            "El Grobescudo"
+        ]
+    },
+    {
+        "nombre": "Tibia del koalak sepulturero",
+        "prix": 0,
+        "id": 1750,
+        "imagen": "./recursos/640.svg",
+        "drops": [
+            {
+                "monstruo": "Sepulturero Koalak∞",
+                "porcentaje": "14%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Casco del Bwork de Bronce",
+            "Hacha del Minotauroro",
+            "Cetro del Minotot",
+            "Bastón de Shika",
+            "Dagas de Dragohuevo",
+            "Pala para Pasteles",
+            "Kasr'Arkol"
+        ]
+    },
+    {
+        "nombre": "Bumerán del Maestro Koalak",
+        "prix": 0,
+        "id": 1751,
+        "imagen": "./recursos/723.svg",
+        "drops": [
+            {
+                "monstruo": "Maestro Koalak∞",
+                "porcentaje": "1%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Daga Duh"
+        ]
+    },
+    {
+        "nombre": "Ratón verde",
+        "prix": 0,
+        "id": 1752,
+        "imagen": "./recursos/282.svg",
+        "drops": [
+            {
+                "monstruo": "Ratón verde1",
+                "porcentaje": "25%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Emment Daga"
+        ]
+    },
+    {
+        "nombre": "Cuero de jalatín negro",
+        "prix": 0,
+        "id": 1753,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Jalatín Negro∞",
+                "porcentaje": "80%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Pequeñas Botas de Concentración",
+            "Botas de Concentración",
+            "Cinturón de Potencia",
+            "Pequeño Cinturón Agilesco",
+            "Cinturón Agilesco",
+            "Gran Cinturón Agilesco",
+            "Imponente cinturón Agilesco",
+            "Einekenoso",
+            "Fecarak",
+            "Cinturón de Suerte",
+            "Pequeñas Botas de Fuerza",
+            "Botas Agilescas",
+            "Botas de Suerte",
+            "Grandes Botas de Concentración",
+            "Poderosas Botas de Concentración",
+            "Casco",
+            "Botas de Aprendizaje",
+            "Poderoso Cinturón Fulgurante",
+            "Kwakobotas de Llamas",
+            "Jalabotas",
+            "Cinturón del jalató",
+            "Jalabotas Reales",
+            "Cinturón Real del Jalató",
+            "Cinturón del Hombre Oso",
+            "Kwakobotas de hielo",
+            "Kwakobotas de Tierra",
+            "Kwakobotas del Viento",
+            "Dragonalgas de cuero de jalatín negro"
+        ]
+    },
+    {
+        "nombre": "Ala del tofu maléfico",
+        "prix": 0,
+        "id": 1754,
+        "imagen": "./recursos/48(1).svg",
+        "drops": [
+            {
+                "monstruo": "Tofu Maléfico2",
+                "porcentaje": "50%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Pequeña Varita de Líder",
+            "Varita de Líder",
+            "Gran Varita de Líder",
+            "Excelente Varita de Líder",
+            "Varita Infernal"
+        ]
+    },
+    {
+        "nombre": "Metaria roja",
+        "prix": 0,
+        "id": 1755,
+        "imagen": "./recursos/241(1).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Pócima de Chispa",
+            "La Pala Gorda",
+            "Varita de Fuego Fatuo"
+        ]
+    },
+    {
+        "nombre": "Abono",
+        "prix": 0,
+        "id": 1756,
+        "imagen": "./recursos/635.svg",
+        "drops": [
+            {
+                "monstruo": "Girasol Salvaje∞",
+                "porcentaje": "0.1%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "Varita Gyver"
+        ]
+    },
+    {
+        "nombre": "Ejército de garrapatas",
+        "prix": 0,
+        "id": 1757,
+        "imagen": "./recursos/493.svg",
+        "drops": [
+            {
+                "monstruo": "Jalató∞",
+                "porcentaje": "1%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Varita Gyver"
+        ]
+    },
+    {
+        "nombre": "Veneno de culebrón",
+        "prix": 0,
+        "id": 1758,
+        "imagen": "./recursos/531.svg",
+        "drops": [
+            {
+                "monstruo": "Culebrón∞",
+                "porcentaje": "0.3%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "Pico"
+        ]
+    },
+    {
+        "nombre": "Diente de Culebrón",
+        "prix": 0,
+        "id": 1759,
+        "imagen": "./recursos/432.svg",
+        "drops": [
+            {
+                "monstruo": "Culebrón2",
+                "porcentaje": "20%",
+                "pp": 300
+            }
+        ],
+        "seUsaEn": [
+            "Alianza Étnica",
+            "Martillito del jalatranki",
+            "Pócima tumbaje",
+            "Capa Ilyzala"
+        ]
+    },
+    {
+        "nombre": "Escama pegajosa",
+        "prix": 0,
+        "id": 1760,
+        "imagen": "./recursos/626.svg",
+        "drops": [
+            {
+                "monstruo": "Pischis Naranja∞",
+                "porcentaje": "5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Llave de la Mazmorra Enarenada",
+            "Garritas",
+            "Espada Bama"
+        ]
+    },
+    {
+        "nombre": "Piel de Mob Lasponja",
+        "prix": 0,
+        "id": 1761,
+        "imagen": "./recursos/628.svg",
+        "drops": [
+            {
+                "monstruo": "Mob Lasponja∞",
+                "porcentaje": "5%",
+                "pp": 300
+            }
+        ],
+        "seUsaEn": [
+            "El Arco Astral",
+            "Vagdita Café"
+        ]
+    },
+    {
+        "nombre": "Pelos de Black Pekewabbit",
+        "prix": 0,
+        "id": 1762,
+        "imagen": "./recursos/195.svg",
+        "drops": [
+            {
+                "monstruo": "Black Pekewabbit∞",
+                "porcentaje": "9%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Juik Kramp",
+            "Capa Májyka",
+            "Mochila del Recolector",
+            "El Oso",
+            "Lasmil Unanoches",
+            "La Peluda",
+            "Cuerbokapa Mastralis",
+            "Bastón del Wobot",
+            "Orejas de wabbit",
+            "Bolso-Zanahowia",
+            "La Bertoza",
+            "Tejido remendón"
+        ]
+    },
+    {
+        "nombre": "Semilla de girasol salvaje",
+        "prix": 0,
+        "id": 1763,
+        "imagen": "./recursos/6(2).svg",
+        "drops": [
+            {
+                "monstruo": "Girasol Salvaje∞",
+                "porcentaje": "18%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Aceite de Girasol Salvaje",
+            "Palita enredaderada",
+            "Pala enredaderada",
+            "Gran pala enredaderada",
+            "Potente pala enredaderada"
+        ]
+    },
+    {
+        "nombre": "Kokopaja",
+        "prix": 0,
+        "id": 1764,
+        "imagen": "./recursos/433.svg",
+        "drops": [
+            {
+                "monstruo": "Pekekoko∞",
+                "porcentaje": "14%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Carabotas",
+            "Caparasombrero",
+            "Caracapa",
+            "Cinturón Kokoketo"
+        ]
+    },
+    {
+        "nombre": "Kokoleche",
+        "prix": 0,
+        "id": 1765,
+        "imagen": "./recursos/423.svg",
+        "drops": [
+            {
+                "monstruo": "Kokoko∞",
+                "porcentaje": "0.2%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Caracapa"
+        ]
+    },
+    {
+        "nombre": "Avellana",
+        "prix": 0,
+        "id": 1766,
+        "imagen": "./recursos/66.svg",
+        "drops": [
+            {
+                "monstruo": "Jabalí8",
+                "porcentaje": "58%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Pan de avellanas",
+            "Ensalada de Hocico",
+            "Ensalada de Hocico **",
+            "Ensalada de Hocico ***",
+            "Hacha Parrada"
+        ]
+    },
+    {
+        "nombre": "Cuero de Jabalí",
+        "prix": 0,
+        "id": 1767,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Jabalí∞",
+                "porcentaje": "60%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Botas de Bowis",
+            "Pequeñas Botas de Concentración",
+            "Botas de Concentración",
+            "El Espachurrador de Yopuka",
+            "Cinturón de Potencia",
+            "Cinturón del Tot",
+            "Botas de Fayt",
+            "Cinturón de Resistencia",
+            "Dantgul",
+            "Botas de Ragalde",
+            "Cinturón de Seguridad",
+            "Grandes Botas de Concentración",
+            "Poderosas Botas de Concentración",
+            "Pequeñas Botas de Klim",
+            "Botas de Klim",
+            "Grandes Botas de Klim",
+            "Superpoderosas Botas de Klim",
+            "Poderosas Botas de Klim",
+            "El Adelus",
+            "Botas de Dominación",
+            "Botas de Potencia",
+            "Botas de Anticipación",
+            "Botas de Aprendizaje",
+            "Cinturón Ropopompero",
+            "Cinturón del Temblador Regordete",
+            "Cinturón de Bolsillo",
+            "Poderoso Cinturón Fulgurante",
+            "Farlacinto",
+            "Pies de jabalí",
+            "Dragonalgas de cuero de jabalí",
+            "Máscara de jabalí de Haluín"
+        ]
+    },
+    {
+        "nombre": "Calabaza",
+        "prix": 0,
+        "id": 1768,
+        "imagen": "./recursos/12.svg",
+        "drops": [
+            {
+                "monstruo": "Calawaza1",
+                "porcentaje": "0.5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Máscara de jalató de Haluín",
+            "Máscara de tofu de Haluín",
+            "Máscara de jabalí de Haluín",
+            "Máscara de crujidor de Haluín",
+            "Máscara de abráknido de Haluín",
+            "Máscara de chafer infante de Haluín",
+            "Máscara de milubo de Haluín"
+        ]
+    },
+    {
+        "nombre": "Diente puntiagudo",
+        "prix": 0,
+        "id": 1769,
+        "imagen": "./recursos/432.svg",
+        "drops": [
+            {
+                "monstruo": "Maestro Vampiro2",
+                "porcentaje": "24%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Anillo Mamestro",
+            "Garra de Grizmoh Guay"
+        ]
+    },
+    {
+        "nombre": "Uña del Cabalgador de Karne",
+        "prix": 0,
+        "id": 1770,
+        "imagen": "./recursos/54(1).svg",
+        "drops": [
+            {
+                "monstruo": "Cabalgador de Karne4",
+                "porcentaje": "24%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco del Dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Diente de Karne",
+        "prix": 0,
+        "id": 1771,
+        "imagen": "./recursos/13(3).svg",
+        "drops": [
+            {
+                "monstruo": "Cabalgador de Karne∞",
+                "porcentaje": "10%",
+                "pp": 120
+            }
+        ],
+        "seUsaEn": [
+            "Alianza Étnica",
+            "Collar ceremonial del Amo de las Ratas"
+        ]
+    },
+    {
+        "nombre": "Pelos de wabbit",
+        "prix": 0,
+        "id": 1772,
+        "imagen": "./recursos/196.svg",
+        "drops": [
+            {
+                "monstruo": "Wabbit∞",
+                "porcentaje": "12%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Capa Tulación",
+            "Capa Mariya",
+            "Cinturón Ropopompero",
+            "Mistetas Oscuro",
+            "Capa Zono",
+            "La Peluda",
+            "Kwapa de Llamas",
+            "Kwapa de Hielo",
+            "Bastón del Wobot",
+            "Bolso-Zanahowia",
+            "Capa del Hombre Oso",
+            "Kwapa de Tierra",
+            "Kwapa del Viento"
+        ]
+    },
+    {
+        "nombre": "Tridente Roto",
+        "prix": 0,
+        "id": 1773,
+        "imagen": "./recursos/512.svg",
+        "drops": [
+            {
+                "monstruo": "Pastor Puerkazo1",
+                "porcentaje": "14%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Bardacha del Miliciano",
+            "Hacha Pesquera",
+            "Llave de la Mazmorra Cerda"
+        ]
+    },
+    {
+        "nombre": "Leche del Cochinillo",
+        "prix": 0,
+        "id": 1774,
+        "imagen": "./recursos/423.svg",
+        "drops": [
+            {
+                "monstruo": "Cochinillo∞",
+                "porcentaje": "0.5%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Emment Daga"
+        ]
+    },
+    {
+        "nombre": "Colmillo Amarillo",
+        "prix": 0,
+        "id": 1775,
+        "imagen": "./recursos/458.svg",
+        "drops": [
+            {
+                "monstruo": "Colmillo Blando∞",
+                "porcentaje": "45%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "La Garra Afilada"
+        ]
+    },
+    {
+        "nombre": "Cuero del jefe de guerra jalató",
+        "prix": 0,
+        "id": 1776,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Jefe de Guerra Jalató∞",
+                "porcentaje": "25%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Botas de Bowis",
+            "Cinturón del Tot",
+            "Botas de Rap y Dhez",
+            "Sombrero Puntiagudo",
+            "Dantgul",
+            "Botas de Ragalde",
+            "Superpoderosas Botas de Klim",
+            "Pequeñas Botas de Persecución",
+            "Botas de Persecución",
+            "Botas de Superpersecución",
+            "Poderosas Botas de Persecución",
+            "Botas de Hogmeiser",
+            "Botas Doradas de Hogmeiser",
+            "El Adelus",
+            "Botas de Aprendizaje",
+            "Cinturón Ropopompero",
+            "Cinturón del Temblador Regordete",
+            "La Mordisca",
+            "Poderoso Cinturón Fulgurante",
+            "Botas de Linfa Tiko",
+            "Jalabotas",
+            "Los Nykers",
+            "Jalabotas Reales",
+            "Cinturón Real del Jalató",
+            "Cinturón Cuerbakial",
+            "Dragonalgas de cuero de jefe de guerra jalató"
+        ]
+    },
+    {
+        "nombre": "Lengua de colmillo blando",
+        "prix": 0,
+        "id": 1777,
+        "imagen": "./recursos/527.svg",
+        "drops": [
+            {
+                "monstruo": "Colmillo Blando1",
+                "porcentaje": "4%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "Varita Blanda",
+            "Pequeña pócima de Curación de Masas"
+        ]
+    },
+    {
+        "nombre": "Runa Gri",
+        "prix": 0,
+        "id": 1778,
+        "imagen": "./recursos/14(2).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Dagas de Unakabra"
+        ]
+    },
+    {
+        "nombre": "Corazón de Brandon",
+        "prix": 0,
+        "id": 1779,
+        "imagen": "./recursos/328.svg",
+        "drops": [
+            {
+                "monstruo": "Cuerbok1",
+                "porcentaje": "0.1%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Botas Volátiles",
+            "Cuerbosombrero",
+            "Anillo Pulío"
+        ]
+    },
+    {
+        "nombre": "Runa Cu",
+        "prix": 0,
+        "id": 1780,
+        "imagen": "./recursos/13(4).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Kriss Tobal"
+        ]
+    },
+    {
+        "nombre": "Harina atrevida",
+        "prix": 0,
+        "id": 1781,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [],
+        "seUsaEn": [
+            "Bizcocho dorado",
+            "Bastoncillo de magia falsa",
+            "Bastón de magia falsa",
+            "Gran bastón de magia falsa",
+            "Verdadero bastón de magia falsa",
+            "Pan Bumbo",
+            "Pan Hasonik"
+        ]
+    },
+    {
+        "nombre": "Arroz Delmono",
+        "prix": 0,
+        "id": 1782,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Espantapájaros del Arroz1",
+                "porcentaje": "0.5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "El amuleto Grobambú"
+        ]
+    },
+    {
+        "nombre": "Raíz mágica de bambuto",
+        "prix": 0,
+        "id": 1783,
+        "imagen": "./recursos/100.svg",
+        "drops": [
+            {
+                "monstruo": "Bambuto1",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Martillo Katraz",
+            "Varita Eide",
+            "Varita Fekal",
+            "Raíz Cúbica",
+            "El Bastón Rubé",
+            "Arco Telaraña"
+        ]
+    },
+    {
+        "nombre": "Carne de larva conservada ***",
+        "prix": 0,
+        "id": 1784,
+        "imagen": "./recursos/383.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Larva trabasal ***",
+            "R.I.Pala"
+        ]
+    },
+    {
+        "nombre": "Raíz de mazorral",
+        "prix": 0,
+        "id": 1785,
+        "imagen": "./recursos/96.svg",
+        "drops": [
+            {
+                "monstruo": "Mazorral1",
+                "porcentaje": "0.5%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Mazoporrazo",
+            "Bastón de Farle",
+            "Martillito Holón",
+            "Aporreadora de bambú sagrado",
+            "Aporreadora de madera ancestral",
+            "Aporreadora de madera embrujada",
+            "Aporreadora de bambú dorado"
+        ]
+    },
+    {
+        "nombre": "Hueso de Oso",
+        "prix": 0,
+        "id": 1786,
+        "imagen": "./recursos/48.svg",
+        "drops": [
+            {
+                "monstruo": "El Hombre Oso1",
+                "porcentaje": "5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Bastón del Hombre Oso"
+        ]
+    },
+    {
+        "nombre": "Cápsula explosiva",
+        "prix": 0,
+        "id": 1787,
+        "imagen": "./recursos/711.svg",
+        "drops": [
+            {
+                "monstruo": "Bwork Mago∞",
+                "porcentaje": "15%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Bastón del Bwork Mago",
+            "Gran hada artificial roja",
+            "Gran hada artificial roja giratoria",
+            "Gran hada artificial roja fuentesca",
+            "Gran hada artificial roja chispitas",
+            "Gran hada artificial roja volteadora",
+            "Gran hada artificial verde",
+            "Gran hada artificial verde giratoria",
+            "Gran hada artificial verdosa fuente",
+            "Gran hada artificial verde chispitas",
+            "Gran hada artificial verde volteadora",
+            "Gran hada artificial azul",
+            "Gran hada artificial azul giratoria",
+            "Gran hada artificial azul fuentesca",
+            "Gran hada artificial azul chispitas",
+            "Gran hada artificial azul volteadora",
+            "Gran hada artificial amarilla",
+            "Gran hada artificial amarilla giratoria",
+            "Gran hada artificial amarilla fuentesca",
+            "Gran hada artificial amarilla chispitas",
+            "Gran hada artificial amarilla volteadora",
+            "Llave de la Mazmorra del Bworker",
+            "Hada artificial festiva"
+        ]
+    },
+    {
+        "nombre": "Ron Mazorral",
+        "prix": 0,
+        "id": 1788,
+        "imagen": "./recursos/177.svg",
+        "drops": [
+            {
+                "monstruo": "Mazorral2",
+                "porcentaje": "0.5%",
+                "pp": 300
+            }
+        ],
+        "seUsaEn": [
+            "Mazorralianza",
+            "Dagas Roink"
+        ]
+    },
+    {
+        "nombre": "Lanza rota",
+        "prix": 0,
+        "id": 1789,
+        "imagen": "./recursos/616.svg",
+        "drops": [
+            {
+                "monstruo": "Mazorral1",
+                "porcentaje": "3%",
+                "pp": 500
+            }
+        ],
+        "seUsaEn": [
+            "Hacha de Brecha",
+            "Hacha Chachi",
+            "Mazoporrazo"
+        ]
+    },
+    {
+        "nombre": "Punta de Flecha del bwork arquero",
+        "prix": 0,
+        "id": 1790,
+        "imagen": "./recursos/125.svg",
+        "drops": [
+            {
+                "monstruo": "Bwork Arquero5",
+                "porcentaje": "40%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco del Bwork Arquero",
+            "Pequeña Varita Hora",
+            "Varita Hora",
+            "Gran Varita Hora",
+            "Terrorífica Varita Hora",
+            "Llave de la Mazmorra del Bworker",
+            "Llave de la Mazmorra de los Bworks",
+            "Sombrervido",
+            "Prisma de conquista"
+        ]
+    },
+    {
+        "nombre": "Mineral extraño",
+        "prix": 0,
+        "id": 1791,
+        "imagen": "./recursos/90.svg",
+        "drops": [
+            {
+                "monstruo": "Minero Oscuro∞",
+                "porcentaje": "0.5%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Pala del minero oscuro"
+        ]
+    },
+    {
+        "nombre": "Pócima de Flameación",
+        "prix": 0,
+        "id": 1792,
+        "imagen": "./recursos/20(2).svg",
+        "drops": [],
+        "seUsaEn": [
+            "El Tizón Zippón"
+        ]
+    },
+    {
+        "nombre": "Metaria triam roja",
+        "prix": 0,
+        "id": 1793,
+        "imagen": "./recursos/242.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Pócima de Flameación",
+            "La Pala Gorda"
+        ]
+    },
+    {
+        "nombre": "Leche de dragopavo",
+        "prix": 0,
+        "id": 1794,
+        "imagen": "./recursos/424.svg",
+        "drops": [
+            {
+                "monstruo": "Dragopavo Almendrado Salvaje1",
+                "porcentaje": "14%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Emment Daga",
+            "Correa Litichow"
+        ]
+    },
+    {
+        "nombre": "Runa Ra Age",
+        "prix": 0,
+        "id": 1795,
+        "imagen": "./recursos/66(1).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Martillo de la Chavala Zoth"
+        ]
+    },
+    {
+        "nombre": "Piedra de esmeralda",
+        "prix": 0,
+        "id": 1796,
+        "imagen": "./recursos/145.svg",
+        "drops": [
+            {
+                "monstruo": "Dragohuevo Dorado Inmaduro1",
+                "porcentaje": "2.5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Esmeralda",
+            "Hachilla Sabia",
+            "Bastón del Sandanwa"
+        ]
+    },
+    {
+        "nombre": "Dentadura de puerkazo",
+        "prix": 0,
+        "id": 1797,
+        "imagen": "./recursos/511.svg",
+        "drops": [
+            {
+                "monstruo": "Caballero Puerkazo1",
+                "porcentaje": "1.4%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Varita Gyver"
+        ]
+    },
+    {
+        "nombre": "Líquido vampiresco",
+        "prix": 0,
+        "id": 1798,
+        "imagen": "./recursos/188.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Estaca Vampírica",
+            "Pócima de protección tenebrosa",
+            "Pócima de protección opalescente"
+        ]
+    },
+    {
+        "nombre": "Savia de abráknido modificada",
+        "prix": 0,
+        "id": 1799,
+        "imagen": "./recursos/162.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Abraknydi Vivitus"
+        ]
+    },
+    {
+        "nombre": "Aceite de Kodo",
+        "prix": 0,
+        "id": 1800,
+        "imagen": "./recursos/69.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Pólvora de cañón",
+            "Espada Protectora",
+            "Carne de demonio en conserva",
+            "Carne de demonio en conserva **",
+            "Carne de demonio en conserva ***",
+            "Carne de demonio en conserva ****"
+        ]
+    },
+    {
+        "nombre": "Vísceras de escarahoja",
+        "prix": 0,
+        "id": 1801,
+        "imagen": "./recursos/445.svg",
+        "drops": [
+            {
+                "monstruo": "Escarahoja Rojo∞",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Garra rosa",
+            "Fucsia"
+        ]
+    },
+    {
+        "nombre": "Costilletas de Rib",
+        "prix": 0,
+        "id": 1802,
+        "imagen": "./recursos/158.svg",
+        "drops": [
+            {
+                "monstruo": "Rib∞",
+                "porcentaje": "40%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Varita Irreal"
+        ]
+    },
+    {
+        "nombre": "Hueso de chafer",
+        "prix": 0,
+        "id": 1803,
+        "imagen": "./recursos/15(2).svg",
+        "drops": [
+            {
+                "monstruo": "Chafer∞",
+                "porcentaje": "30%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "El Martillo del Chafer",
+            "Amuleto del Sram",
+            "Varita de Liriel",
+            "Amuleto del chafer",
+            "Amuleto del Pirata",
+            "Kritter",
+            "Bastón Extintor",
+            "Líquido vampiresco",
+            "Llave de la Mazmorra de los Esqueletos",
+            "Poder de Cocoburio",
+            "Shako",
+            "Capa Brakmariana",
+            "Ramún el Eterno",
+            "Cinturón Chafero",
+            "Varita Irreal",
+            "Pócima de olvido recaudador \"Compulsión de Masas\"",
+            "Guante de la Rata Blanca",
+            "Elixir osamodas",
+            "Máscara de chafer infante de Haluín"
+        ]
+    },
+    {
+        "nombre": "Blop Muerto",
+        "prix": 0,
+        "id": 1804,
+        "imagen": "./recursos/568.svg",
+        "drops": [
+            {
+                "monstruo": "Blop Coco1",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Varita Blanda"
+        ]
+    },
+    {
+        "nombre": "Cejas de Tronkónido",
+        "prix": 0,
+        "id": 1805,
+        "imagen": "./recursos/574.svg",
+        "drops": [
+            {
+                "monstruo": "Tronkónido2",
+                "porcentaje": "2%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco Ángel",
+            "El Tronkónidum",
+            "Amrothilina",
+            "La Raíz Zinzinati",
+            "Varita Rosca",
+            "Raíz Cúbica",
+            "Hacha del Dragohuevo",
+            "Pala para Pasteles"
+        ]
+    },
+    {
+        "nombre": "Loncha de Tronkónido",
+        "prix": 0,
+        "id": 1806,
+        "imagen": "./recursos/575.svg",
+        "drops": [
+            {
+                "monstruo": "Tronkónido∞",
+                "porcentaje": "8%",
+                "pp": 500
+            }
+        ],
+        "seUsaEn": [
+            "Arco Ángel",
+            "Arki Tekto",
+            "Arco del Chafer Arquero",
+            "El Tronkónidum",
+            "La Migraña",
+            "Kelinorrama",
+            "Pala Blega",
+            "La Pala Enamorada"
+        ]
+    },
+    {
+        "nombre": "Loncha mágica de Tronkónido",
+        "prix": 0,
+        "id": 1807,
+        "imagen": "./recursos/576.svg",
+        "drops": [
+            {
+                "monstruo": "Tronkónido∞",
+                "porcentaje": "1%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Martillo Tohrero",
+            "Daga Lomeración",
+            "Arki Tekto",
+            "Arco del Chafer Arquero",
+            "Varita de Elya Wood",
+            "Martillo de la Terps",
+            "Martillo Trotícolis",
+            "Kelinorrama",
+            "La Raíz Varreche",
+            "Bastón de Sanchoku",
+            "La Espada Risueña"
+        ]
+    },
+    {
+        "nombre": "Hueso Sorpresa del chafer Infante",
+        "prix": 0,
+        "id": 1808,
+        "imagen": "./recursos/15(2).svg",
+        "drops": [
+            {
+                "monstruo": "Chafer Infante1",
+                "porcentaje": "1%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Kritter",
+            "Shako",
+            "Cinturón Chafero",
+            "Varita Irreal",
+            "Máscara de chafer infante de Haluín"
+        ]
+    },
+    {
+        "nombre": "Caparazón de scorbuto",
+        "prix": 0,
+        "id": 1809,
+        "imagen": "./recursos/514.svg",
+        "drops": [
+            {
+                "monstruo": "Scorbuto1",
+                "porcentaje": "5%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Hacha del Dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Vísceras de scorbuto",
+        "prix": 0,
+        "id": 1810,
+        "imagen": "./recursos/445.svg",
+        "drops": [
+            {
+                "monstruo": "Scorbuto∞",
+                "porcentaje": "0.1%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "Garra rosa",
+            "El Sable Ayasalama"
+        ]
+    },
+    {
+        "nombre": "Pata de scorbuto",
+        "prix": 0,
+        "id": 1811,
+        "imagen": "./recursos/515.svg",
+        "drops": [
+            {
+                "monstruo": "Scorbuto∞",
+                "porcentaje": "8%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "La Garra Afilada",
+            "Increíble pócima de curación de masas"
+        ]
+    },
+    {
+        "nombre": "Carne de pájaro conservada **",
+        "prix": 0,
+        "id": 1812,
+        "imagen": "./recursos/353.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Nuggets **",
+            "Kidortillo"
+        ]
+    },
+    {
+        "nombre": "Arakna Mayor Muerta",
+        "prix": 0,
+        "id": 1813,
+        "imagen": "./recursos/629.svg",
+        "drops": [
+            {
+                "monstruo": "Arakna Mayor1",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Barra del Caribe"
+        ]
+    },
+    {
+        "nombre": "Dentadura del chafer de élite",
+        "prix": 0,
+        "id": 1814,
+        "imagen": "./recursos/129.svg",
+        "drops": [
+            {
+                "monstruo": "Chafer de Élite1",
+                "porcentaje": "2%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Varita Aleyx"
+        ]
+    },
+    {
+        "nombre": "Hombrera de Bwork",
+        "prix": 0,
+        "id": 1815,
+        "imagen": "./recursos/647.svg",
+        "drops": [
+            {
+                "monstruo": "Bwork2",
+                "porcentaje": "5.4%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Llave de la Mazmorra del Bworker",
+            "Llave de la Mazmorra de los Bworks",
+            "Hacha Charear"
+        ]
+    },
+    {
+        "nombre": "Zampa Ron",
+        "prix": 0,
+        "id": 1816,
+        "imagen": "./recursos/177.svg",
+        "drops": [
+            {
+                "monstruo": "Zampávoro∞",
+                "porcentaje": "10%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Stropamuleto",
+            "Dagas Roink",
+            "Botella de Zampaburg"
+        ]
+    },
+    {
+        "nombre": "Colmillo de jabalí de las llanuras",
+        "prix": 0,
+        "id": 1817,
+        "imagen": "./recursos/541.svg",
+        "drops": [
+            {
+                "monstruo": "Jabalí de las llanuras4",
+                "porcentaje": "10%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "La Garra",
+            "Bastón de Shika",
+            "Elixir ocra"
+        ]
+    },
+    {
+        "nombre": "Metaria maga azul",
+        "prix": 0,
+        "id": 1818,
+        "imagen": "./recursos/246(1).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Pócima de Tsunami",
+            "Pico"
+        ]
+    },
+    {
+        "nombre": "Pócima de Incendio",
+        "prix": 0,
+        "id": 1819,
+        "imagen": "./recursos/21.svg",
+        "drops": [],
+        "seUsaEn": [
+            "El Tizón Zippón",
+            "Estaca Vampírica",
+            "Arco Léptico"
+        ]
+    },
+    {
+        "nombre": "Pócima de Huracán",
+        "prix": 0,
+        "id": 1820,
+        "imagen": "./recursos/27.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Arco Léptico"
+        ]
+    },
+    {
+        "nombre": "Pócima de Seísmo",
+        "prix": 0,
+        "id": 1821,
+        "imagen": "./recursos/30(1).svg",
+        "drops": [],
+        "seUsaEn": [
+            "El Skrunnchhh"
+        ]
+    },
+    {
+        "nombre": "Cuerno de dragoss de zafiro",
+        "prix": 0,
+        "id": 1822,
+        "imagen": "./recursos/647(1).svg",
+        "drops": [
+            {
+                "monstruo": "Aqualikros el Despiadado1",
+                "porcentaje": "0.5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco Telaraña",
+            "Arco del Dragohuevo",
+            "Dagas de Dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Cuerno de dragoss dorado",
+        "prix": 0,
+        "id": 1823,
+        "imagen": "./recursos/645.svg",
+        "drops": [
+            {
+                "monstruo": "Dragoss Dorado Despierto1",
+                "porcentaje": "0.5%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Varita del Roble Blando",
+            "Martillo del dragohuevo",
+            "Pala dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Carne de insecto conservada **",
+        "prix": 0,
+        "id": 1824,
+        "imagen": "./recursos/384.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Bolitas de Insecto **",
+            "R.I.Pala"
+        ]
+    },
+    {
+        "nombre": "Muslo de jalató conservado ****",
+        "prix": 0,
+        "id": 1825,
+        "imagen": "./recursos/341.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Jamón de jalató asado ****",
+            "Martillo de la Chavala Zoth"
+        ]
+    },
+    {
+        "nombre": "Metaria maga roja",
+        "prix": 0,
+        "id": 1826,
+        "imagen": "./recursos/243(1).svg",
+        "drops": [],
+        "seUsaEn": [
+            "Pócima de Incendio",
+            "La Pala Gorda",
+            "Varita Fogosa",
+            "Hachilla Sabia"
+        ]
+    },
+    {
+        "nombre": "Pomo de espada",
+        "prix": 0,
+        "id": 1827,
+        "imagen": "./recursos/519.svg",
+        "drops": [
+            {
+                "monstruo": "Uginak1",
+                "porcentaje": "0.4%",
+                "pp": 300
+            }
+        ],
+        "seUsaEn": [
+            "Falsa Garra de Ceangal",
+            "Garra rosa"
+        ]
+    },
+    {
+        "nombre": "Carne de pájaro conservada ****",
+        "prix": 0,
+        "id": 1828,
+        "imagen": "./recursos/352.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Nuggets ****",
+            "Pala Garbosa"
+        ]
+    },
+    {
+        "nombre": "Mortaja",
+        "prix": 0,
+        "id": 1829,
+        "imagen": "./recursos/430.svg",
+        "drops": [
+            {
+                "monstruo": "Fantasma Ardiente1",
+                "porcentaje": "2%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Dora Oscura de Bravo",
+            "Krepita",
+            "Llave del Santuario de Qu'Tan"
+        ]
+    },
+    {
+        "nombre": "Mimbre hechizado",
+        "prix": 0,
+        "id": 1830,
+        "imagen": "./recursos/123(2).svg",
+        "drops": [
+            {
+                "monstruo": "Jefe Cocodrail∞",
+                "porcentaje": "0.2%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Dora"
+        ]
+    },
+    {
+        "nombre": "Fragmento de Espada Reptiliana",
+        "prix": 0,
+        "id": 1831,
+        "imagen": "./recursos/446.svg",
+        "drops": [
+            {
+                "monstruo": "Jefe Cocodrail1",
+                "porcentaje": "0.5%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Hoja del Jefe Cocodrail",
+            "Daga 'Mberra"
+        ]
+    },
+    {
+        "nombre": "Dragocarne ***",
+        "prix": 0,
+        "id": 1832,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Dragohuevo Blanco∞",
+                "porcentaje": "50%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Dagas Olina",
+            "Dragocarne conservada ***"
+        ]
+    },
+    {
+        "nombre": "Vísceras del Escarajefe Dorado",
+        "prix": 0,
+        "id": 1833,
+        "imagen": "./recursos/726.svg",
+        "drops": [
+            {
+                "monstruo": "Escarajefe Dorado1",
+                "porcentaje": "0.9%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Espada del dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Solomillo de cerdo conservado ****",
+        "prix": 0,
+        "id": 1834,
+        "imagen": "./recursos/358.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Jamón cocido ****",
+            "Hacha Sudor Rancio"
+        ]
+    },
+    {
+        "nombre": "Pez Martillhoz",
+        "prix": 0,
+        "id": 1835,
+        "imagen": "./recursos/322.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Tiburón martillhoz destripado",
+            "Hacha Pesquera"
+        ]
+    },
+    {
+        "nombre": "Muslo de wabbit conservado ****",
+        "prix": 0,
+        "id": 1836,
+        "imagen": "./recursos/347.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Wabbit asado ****",
+            "La Pala de Mel"
+        ]
+    },
+    {
+        "nombre": "Raíz mágica de bambuto sagrado",
+        "prix": 0,
+        "id": 1837,
+        "imagen": "./recursos/99(1).svg",
+        "drops": [
+            {
+                "monstruo": "Bambuto Sagrado1",
+                "porcentaje": "0.5%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Dagas Heladas",
+            "Dagas de Agresión",
+            "Varita Despistada",
+            "Raíz Kyerda Unida",
+            "Jakchir Arco",
+            "Rod Gers",
+            "Karnak",
+            "Martillito Blerón"
+        ]
+    },
+    {
+        "nombre": "Ron de Calidad",
+        "prix": 0,
+        "id": 1838,
+        "imagen": "./recursos/177.svg",
+        "drops": [
+            {
+                "monstruo": "Le Chuko∞",
+                "porcentaje": "12%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "Arco de Lafrontera",
+            "Dagas Roink"
+        ]
+    },
+    {
+        "nombre": "Bwak Esquelético",
+        "prix": 0,
+        "id": 1839,
+        "imagen": "./recursos/608(1).svg",
+        "drops": [
+            {
+                "monstruo": "Le Chuko1",
+                "porcentaje": "0.1%",
+                "pp": 600
+            }
+        ],
+        "seUsaEn": [
+            "Kukri Kura",
+            "Pala Garbosa",
+            "Hacha de Lamelas",
+            "Daga 'Mberra"
+        ]
+    },
+    {
+        "nombre": "Cuerno del Deminobola",
+        "prix": 0,
+        "id": 1840,
+        "imagen": "./recursos/643(1).svg",
+        "drops": [
+            {
+                "monstruo": "Deminobola2",
+                "porcentaje": "1.4%",
+                "pp": 700
+            }
+        ],
+        "seUsaEn": [
+            "Hacha del Minotauroro",
+            "Varita de Dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Cuerno de mominotauro",
+        "prix": 0,
+        "id": 1841,
+        "imagen": "./recursos/642(1).svg",
+        "drops": [
+            {
+                "monstruo": "Mominotauro2",
+                "porcentaje": "1.4%",
+                "pp": 600
+            }
+        ],
+        "seUsaEn": [
+            "Garritas"
+        ]
+    },
+    {
+        "nombre": "Diente de Shin Larva",
+        "prix": 0,
+        "id": 1842,
+        "imagen": "./recursos/654.svg",
+        "drops": [
+            {
+                "monstruo": "Shin Larva1",
+                "porcentaje": "1.5%",
+                "pp": 400
+            }
+        ],
+        "seUsaEn": [
+            "La Espada Risueña",
+            "Cetro del Minotot",
+            "Hacha del Dragohuevo"
+        ]
+    },
+    {
+        "nombre": "Corona rota del Tofu Real",
+        "prix": 0,
+        "id": 1843,
+        "imagen": "./recursos/412.svg",
+        "drops": [
+            {
+                "monstruo": "Tofu Real1",
+                "porcentaje": "0.5%",
+                "pp": 800
+            }
+        ],
+        "seUsaEn": [
+            "Corona del Tofu Real"
+        ]
+    },
+    {
+        "nombre": "Ámbar del Tynril",
+        "prix": 0,
+        "id": 1844,
+        "imagen": "./recursos/1(16).svg",
+        "drops": [
+            {
+                "monstruo": "Tynril Pérfido∞",
+                "porcentaje": "1%",
+                "pp": 1000
+            }
+        ],
+        "seUsaEn": [
+            "Goldotura",
+            "Tocado del Tynril",
+            "Rizoma del Tynril",
+            "Tocado del Maestro Zoth",
+            "Soberano sello del Rey Stropajo",
+            "Cinturón claro de Abrajidor",
+            "La Pala de Mel",
+            "Casco de Tufo Aéreo",
+            "Daga 'Mberra",
+            "Anillo Bliterado",
+            "Amuleto del descanso eterno",
+            "Espada Bama"
+        ]
+    },
+    {
+        "nombre": "Hueso de fantasma Yokai Firefux",
+        "prix": 0,
+        "id": 1845,
+        "imagen": "./recursos/2(10).svg",
+        "drops": [
+            {
+                "monstruo": "Fantasma Yokai Firefux1",
+                "porcentaje": "5%",
+                "pp": 300
+            }
+        ],
+        "seUsaEn": [
+            "Raíz Kyerda Unida",
+            "Varita Strella",
+            "Las Dagas de Aminal",
+            "Hacha Pronto",
+            "Pala dragohuevo",
+            "Pandalacha"
+        ]
+    },
+    {
+        "nombre": "Arco roto del tirador de élite",
+        "prix": 0,
+        "id": 1846,
+        "imagen": "./recursos/777.svg",
+        "drops": [
+            {
+                "monstruo": "Centinela del Orden de la Venganza1",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco Hadia"
+        ]
+    },
+    {
+        "nombre": "Madera de roble blando",
+        "prix": 0,
+        "id": 1847,
+        "imagen": "./recursos/668(2).svg",
+        "drops": [
+            {
+                "monstruo": "Roble Blando∞",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Arco Hadia"
+        ]
+    },
+    {
+        "nombre": "Protección usada del Bworker",
+        "prix": 0,
+        "id": 1848,
+        "imagen": "./recursos/714.svg",
+        "drops": [],
+        "seUsaEn": [
+            "Bastón de Abuelita Bombón",
+            "Penispada"
+        ]
+    },
+    {
+        "nombre": "Nujo muerto",
+        "prix": 0,
+        "id": 1849,
+        "imagen": "./recursos/645(2).svg",
+        "drops": [
+            {
+                "monstruo": "Nujo1",
+                "porcentaje": "1.5%",
+                "pp": 200
+            }
+        ],
+        "seUsaEn": [
+            "Varita Irreal"
+        ]
+    },
+    {
+        "nombre": "Tejido fantasmal del Peki Lobo",
+        "prix": 0,
+        "id": 1850,
+        "imagen": "/data/icons/notfound.png",
+        "drops": [
+            {
+                "monstruo": "Fantasma del Peki Lobo∞",
+                "porcentaje": "0%",
+                "pp": 100
+            }
+        ],
+        "seUsaEn": [
+            "Pandalacha",
+            "Tocado de Bill de Grobe",
+            "Las Grobuchas",
+            "El Kumokan"
+        ]
     }
 ]

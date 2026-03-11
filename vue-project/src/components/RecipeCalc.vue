@@ -184,6 +184,24 @@ for (const path in imageModulesItems) {
   itemImagesMap.set(filename, imageModulesItems[path])
 }
 
+// Load weapon images (support SVG and PNG)
+const imageModulesArmas = import.meta.glob(['../data/itemlist/armas/*.svg', '../data/itemlist/armas/*.png'], { eager: true, import: 'default' })
+const armasImagesMap = new Map()
+
+for (const path in imageModulesArmas) {
+  const filename = path.split('/').pop()
+  armasImagesMap.set(filename, imageModulesArmas[path])
+}
+
+// Load system icons (notfound, etc.)
+const imageModulesIcons = import.meta.glob(['../data/icons/*.png', '../data/icons/*.svg'], { eager: true, import: 'default' })
+const iconsMap = new Map()
+
+for (const path in imageModulesIcons) {
+  const filename = path.split('/').pop()
+  iconsMap.set(filename, imageModulesIcons[path])
+}
+
 // Load resource images
 const imageModulesResources = import.meta.glob('../data/itemlist/recursos/*.svg', { eager: true, import: 'default' })
 const resourceImagesMap = new Map()
@@ -267,6 +285,12 @@ onMounted(() => {
   })
   recursosMap.value = mapRec
 
+  // Build items map by name for ingredient lookup
+  const mapItemsByName = new Map()
+  itemsDofusRetro.forEach(item => {
+    mapItemsByName.set(item.nombre.toLowerCase(), item)
+  })
+
   // Build recipes map from the items_craft_completo structure
   const mapRecetas = new Map()
   itemsDofusRetro.forEach(item => {
@@ -278,11 +302,13 @@ onMounted(() => {
           const cantidad = parseInt(match[1])
           const nombre = match[2]
           const resource = mapRecByName.get(nombre.toLowerCase())
+          const itemIngredient = mapItemsByName.get(nombre.toLowerCase())
+          
           return {
             nombre: nombre,
             cantidad: cantidad,
-            recursoId: resource ? resource.id : `missing-${nombre}`,
-            imagen: resource ? resource.imagen : null,
+            recursoId: resource ? resource.id : (itemIngredient ? `item-${itemIngredient.nombre}` : `missing-${nombre}`),
+            imagen: resource ? resource.imagen : (itemIngredient ? itemIngredient.imagen : null),
             drops: resource ? resource.drops : null
           }
         }
@@ -315,7 +341,7 @@ const filteredItems = computed(() => {
   if (!searchQuery.value) return []
   const query = searchQuery.value.toLowerCase()
   return items.value
-    .filter(item => item.nombre.toLowerCase().includes(query))
+    .filter(item => !item.desactivado && item.nombre.toLowerCase().includes(query))
     .slice(0, 50) // Limit to 50 for performance
 })
 
@@ -386,16 +412,24 @@ const getStatIcon = (statStr) => {
 }
 
 const getItemImage = (imgRelPath) => {
-  if (!imgRelPath) return null
+  if (!imgRelPath) return iconsMap.get('notfound.png')
   const filename = imgRelPath.split('/').pop()
   
+  if (imgRelPath.includes('/icons/')) {
+    return iconsMap.get(filename) || iconsMap.get('notfound.png')
+  }
   if (imgRelPath.includes('/recursos/')) {
-    return resourceImagesMap.get(filename) || null
+    return resourceImagesMap.get(filename) || iconsMap.get('notfound.png')
   }
   if (imgRelPath.includes('/consumibles/')) {
-    return consumableImagesMap.get(filename) || null
+    return consumableImagesMap.get(filename) || iconsMap.get('notfound.png')
   }
-  return itemImagesMap.get(filename) || null
+  if (imgRelPath.includes('/armas/')) {
+    return armasImagesMap.get(filename) || iconsMap.get('notfound.png')
+  }
+  
+  // Default to item images or notfound
+  return itemImagesMap.get(filename) || iconsMap.get('notfound.png')
 }
 
 // Calculations
